@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="english">الإنجليزية</string>
+    <string name="arab">English</string>
+    <string name="flight">طيران</string>
+    <string name="hotel">فندق</string>
+    <string name="deals">صفقة</string>
+    <string name="callus">إتصل الان</string>
+    <string name="round">ذهاب وعودة</string>
+    <string name="multi">متعددة الوجهات</string>
+    <string name="oneway">ذهاب فقط</string>
+    <string name="from">من</string>
+    <string name="to">إلي</string>
+    <string name="leaving">المغادرة من</string>
+    <string name="going">الذهاب الي</string>
+    <string name="depart">مغادرة</string>
+    <string name="dept">غادر</string>
+    <string name="retur">عودة</string>
+    <string name="arrival">وصول</string>
+    <string name="outbound">الصادرة</string>
+    <string name="adult">بالغ</string>
+    <string name="children">أطفال</string>
+    <string name="infant">رضيع</string>
+    <string name="search">إبحث</string>
+    <string name="searchfor">البحث عن مدينة أو مطار</string>
+    <string name="cityname">أدخل اسم المدينة</string>
+    <string name="city">مدينة</string>
+    <string name="clas">درجة </string>
+    <string name="direct">طيران مباشر</string>
+    <string name="prefered">طيرانك المفضل</string>
+    <string name="enterprefered">أدخل اسم طيرانك المفضل</string>
+    <string name="traveller">المسافرون</string>
+
+    <string-array name="nav_drawer_items">
+        <item>الصفحة الرئيسية</item>
+        <item>حجوزاتي</item>
+        <item>عنا</item>
+        <item>خدمات</item>
+        <item>الجديد</item>
+        <item>اتصل بنا</item>
+        <item>ارسل بريد الينا</item>
+    </string-array>
+
+    <string name="abo">عنا</string>
+    <string name="serv">خدمات</string>
+    <string name="mabo">إدارة الحجز</string>
+    <string name="cont">اتصل بنا</string>
+    <string name="or">أو</string>
+
+    <!-- Flight Class Spinner Items -->
+    <string-array name="class_spinner_items">
+        <item>الدرجة الاقتصادية</item>
+        <item>الدرجة الاقتصادية الممتازة</item>
+        <item>درجة رجال الأعمال</item>
+        <item>الدرجة الأولى</item>
+    </string-array>
+
+    <!-- Hotel Room Nos -->
+    <string-array name="room_spinner_items">
+        <item>غرفة 1</item>
+        <item>غرفة 2</item>
+        <item>غرفة 3</item>
+        <item>غرفة 4</item>
+        <item>غرفة 5</item>
+    </string-array>
+
+    <string name="no_match">لا توجد معلومات مطابقة</string>
+    <string name="error_title">خطاء</string>
+    <string name="error_msg_empty_dep_arr">يجب ملئ بيانات المغادرة أو مطار الوصول</string>
+    <string name="error_msg_same_dep_arr"> لابد من اختلاف مطار المغادرة ومطار الوصول </string>
+    <string name="error_msg_same_dep_arr_multi_1"> لابد من اختلاف مطار المغادرة ومطار الوصول ( رحلة 1) </string>
+    <string name="error_msg_same_dep_arr_multi_2"> لابد من اختلاف مطار المغادرة ومطار الوصول ( رحلة 2) </string>
+    <string name="error_msg_same_dep_arr_multi_3"> لابد من اختلاف مطار المغادرة ومطار الوصول ( رحلة 3) </string>
+    <string name="error_msg_same_dep_arr_multi_4"> لابد من اختلاف مطار المغادرة ومطار الوصول ( رحلة 4 </string>
+    <string name="error_search_lmt"> نستطيع البحث عن 9 مسافرين فقط</string>
+    <string name="error_infant_cnt">يجب مراعاة ان يكون عدد الرضع أقل من عدد البالغين</string>
+    <string name="ok">البالغين</string>
+    <string name="error_no_internet_title">الوصول إلى الإنترنت غير متوفر</string>
+    <string name="error_no_internet_msg">يتطلب هذا التطبيق خدمة الإنترنت . يرجى الاتصال بالإنترنت وحاول مرة أخرى.</string>
+    <string name="error_no_internet_settings">الإعدادات</string>
+    <string name="error_no_internet_cancel">إلغاء</string>
+    <string name="error_no_internet_close_app">إنهاء التطبيق</string>
+    <string name="default_city_to">دبي</string>
+    <string name="default_city_from">الكويت</string>
+    <string name="exit_msg">انقر مرة اخرى للخروج</string>
+    <string name="passenger_no">الركاب</string>
+    <string name="add_trip">إضافة رحلة +</string>
+    <string name="remove_trip">إزالة رحلة -</string>
+    <string name="nationality">الجنسية</string>
+    <string name="room">غرف</string>
+    <string name="room1">غرفة 1</string>
+    <string name="room2">غرفة 2</string>
+    <string name="room3">غرفة 3</string>
+    <string name="room4">غرفة 4</string>
+    <string name="room5">غرفة 5</string>
+    <string name="cityorhotel">موقع الفندق</string>
+    <string name="type_city">المدينة</string>
+    <string name="name">ابحث عن اسم الفندق</string>
+    <string name="adult1">بالغ ( 12 + )</string>
+    <string name="child1">طفل ( 2-11)</string>
+    <string name="infant1">رضيع ( اقل من عامين )</string>
+    <string name="add_room">اضافة غرفة</string>
+    <string name="remove_room">ازالة -</string>
+    <string name="guests">الزائرين</string>
+    <string name="adult_nos">عدد من بالغ</string>
+    <string name="child_nos">عدد من طفل</string>
+    <string name="child1_age">عمر الطفل 1 </string>
+    <string name="child2_age">عمر الطفل 2</string>
+    <string name="child3_age">عمر طفل 3</string>
+    <string name="child4_age">عمر طفل 4</string>
+    <string name="search_city_hotel">البحث عن فندق</string>
+    <string name="search_nation">الحث عن جنسيتك</string>
+    <string name="err_msg_select_city">الرجاء اختيار المدينة</string>
+    <string name="err_msg_select_nation">الرجاء اختيار جنسيتك</string>
+    <string name="depart_date">تسجيل المغادرة</string>
+    <string name="arrival_date">تسجيل الوصول</string>
+    <string name="depart_time">وقت المغادرة</string>
+    <string name="arrival_time">وقت الوصول</string>
+    <string name="return_date">تاريخ العودة</string>
+    <string name="checkin_date">تسجيل الاقامة</string>
+    <string name="checkout_date">تسجيل المغادرة</string>
+    <string name="err_child_grt_adult">عدد الأطفال الأقل من عامين لا يمكن أن يتجاوز البالغين </string>
+    <string name="years12">اكبر من 12 عام</string>
+    <string name="years212">من عامين - 12 عام</string>
+    <string name="years2">أقل من عامين</string>
+    <string name="non_stop">بدون توقف</string>
+    <string name="one_stop">توقف</string>
+    <string name="more_stop">توقفات</string>
+    <string name="modify">تعديل البحث</string>
+    <string name="sort">ترتيب</string>
+    <string name="sortby">ترتيب حسب:</string>
+
+    <string-array name="sort_items_flight">
+        <item>من الاقل إلى الاعلى</item>
+        <item>من الاعلى الى الاقل</item>
+        <item>من الاقل إلى الاعلى</item>
+        <item>من الاعلى الى الاقل</item>
+        <item>من الأقل إلى الأعلى</item>
+        <item>من الاعلى الى الاقل</item>
+        <item>من الأقل إلى الأعلى</item>
+        <item>من الاعلى الى الاقل</item>
+        <item>A-Z</item>
+        <item>Z-A</item>
+    </string-array>
+    <string-array name="sort_item_flight_heading">
+        <item>السعر</item>
+        <item>مغادرة</item>
+        <item>وصول</item>
+        <item>مدة</item>
+        <item>شركة طيران</item>
+    </string-array>
+
+    <string name="refine_search">حدد بحثك</string>
+    <string name="timing_from">التوقيت: من</string>
+    <string name="timing_to">التوقيت: ل</string>
+    <string name="amam">00:00 حتي 06:00</string>
+    <string name="ampm">06:00 حتي 12:00</string>
+    <string name="pmpm">12:00 حتي 06:00</string>
+    <string name="pmam">06:00 حتي 00:00</string>
+    <string name="price">السعر</string>
+    <string name="duration">مدة</string>
+    <string name="airline">شركة الطيران</string>
+    <string name="layover">مدة التوقف</string>
+    <string name="layover_airports">التوقف بمطار</string>
+    <string name="stops">توقف</string>
+    <string name="one_stp">1 توقف رحلات طيران</string>
+    <string name="one_plus_stp">1+ توقف رحلة طيران</string>
+    <string name="rating">تصنيف النجوم</string>
+    <string name="boardtype">شامل وجبة الإفطار</string>
+    <string name="apply">تطبيق</string>
+    <string name="filter">تصفية</string>
+    <string name="no_result">لا يوجد نتائج مطابقة لمعايير البحث</string>
+    <string name="searching_hotel">يرجى الانتظار بينما نقوم بالبحث عن  أفضل الأسعار لك</string>
+    <string name="searching_flight">يرجى الانتظار بينما نقوم بالبحث عن  أفضل الأسعار لك</string>
+    <string name="checking_hotel">إعادة تأكيد السعر ...</string>
+    <string name="checking_flight">إعادة تأكيد السعر ...</string>
+    <string name="loading">جار التحميل...</string>
+    <string name="flight_expired">تم تحديث السعر وتحديث الأسعار الجديدة</string>
+    <string name="hotel_expired">تم تحديث السعر وتحديث الأسعار الجديدة</string>
+    <string name="flight_expired_web">تم تحديث السعر</string>
+    <string name="hotel_expired_web">تم تحديث السعر</string>
+    <string name="reset_filter">إعادة التصفية</string>
+    <string name="refund">(مستردة)</string>
+    <string name="non_refund">(غير قابل للاسترجاع)</string>
+    <string name="flight_details">تفاصيل الرحلة</string>
+    <string name="book">حجز</string>
+    <string name="total_price_tax">(شاملة الضريبة)</string>
+    <string name="baggage_info">معلومات الأمتعة</string>
+    <string name="baggage_travel_fusion">يمكنك اختيار الأمتعة قبل الدفع</string>
+    <string name="plane_change">الوقت العبور ( ترانزيت ):</string>
+    <string name="map_view">عرض الخريطة</string>
+    <string name="today">اليوم</string>
+    <string name="yesterday">اليوم السابق</string>
+    <string name="days_back">أيام العودة</string>
+    <string name="people_watch">شخص (ق ) مشاهدة</string>
+    <string name="contact_content">مجمع النفيسي\nبجوار  جي دبليو ماريوت  و مجمع المثني\nمدينة الكويت\nالكويت</string>
+    <string name="about_content">لقد بدأت سفريات بوكينج اكسبرس بالعمل بإمكانيات متواضعه وذلك بدأ مع منظمه آياتا بسنة 2005 .   اليوم ومع وجود الخبرات وتفانيهم بالعمل قد اصبحنا من الرواد في مجال صناعة السياحة والسفر.
+	    \n\nبوكينغ اكسبرس تأسست على أيدي متخصصين وذو خبرة عاليه في مجال السياحة والسفر وقد خصصوا أنفسهم لكي يصقلوا ويعززو مجال صناعة السياحة والسفر بأعلى الجودات وخلق بيئة حيوية  وبدون أي عناء او مشقة  للعملاء.
+	      \n\nعند بوكينغ اكسبرس ليس هناك أهم من رضا العملاء ونحن دائما متواجدين لارضاء رغبات عملائنا المميزين والتي  تولينا الريادة بين منافسينا . ولكن نحن نسمى ذلك الافضل وليس الاحسن ونحن نعلم أنه هناك درجات أعلى للخدمات وذلك يحفزنا بأن نحسن من خدماتنا بأتجاه الامتياز دائما .</string>
+
+    <string-array name="sort_items_hotel">
+        <item>من أسفل إلى أعلى</item>
+        <item>من الاعلى الى الادنى</item>
+        <item>من أسفل إلى أعلى</item>
+        <item>من الاعلى الى الادنى</item>
+        <item>A-Z</item>
+        <item>Z-A</item>
+    </string-array>
+    <string-array name="sort_item_hotel_heading">
+        <item>السعر</item>
+        <item>تصنيف</item>
+        <item>اسم فندق</item>
+    </string-array>
+
+    <string name="view_details">تفاصيل</string>
+    <string name="baggage">أمتعة :</string>
+    <string name="booking_class">حجز الدرجة</string>
+    <string name="meals">وجبات</string>
+    <string name="total_duration">إجمالي المدة:</string>
+    <string name="breakfast_included">شامل وجبة الإفطار</string>
+    <string name="onward">فصاعدا</string>
+
+</resources>

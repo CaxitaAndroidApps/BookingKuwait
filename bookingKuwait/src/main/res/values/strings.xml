@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="english">ENGLISH</string>
+    <string name="arab">العربية</string>
+    <string name="flight">Flight</string>
+    <string name="hotel">Hotel</string>
+    <string name="deals">Deals</string>
+    <string name="callus">CALL NOW</string>
+    <string name="round">Round Trip</string>
+    <string name="multi">Multiple</string>
+    <string name="oneway">One Way</string>
+    <string name="from">FROM</string>
+    <string name="to">TO</string>
+    <string name="leaving">Leaving From</string>
+    <string name="going">Going To</string>
+    <string name="depart">Departure</string>
+    <string name="dept">DEPART</string>
+    <string name="retur">Return</string>
+    <string name="arrival">Arrival</string>
+    <string name="outbound">Out Bound</string>
+    <string name="adult">Adult(s)</string>
+    <string name="children">Children</string>
+    <string name="search">SEARCH</string>
+    <string name="searchfor">Search for a city or airport</string>
+    <string name="cityname">Enter a city name</string>
+    <string name="infant">Infant</string>
+    <string name="city">City</string>
+    <string name="clas">Class</string>
+    <string name="direct">Direct Flight</string>
+    <string name="prefered">Preferred Airline</string>
+    <string name="enterprefered">Enter your preferred airline</string>
+    <string name="traveller">TRAVELLERS</string>
+    <string name="abo">About Us</string>
+    <string name="serv">Service</string>
+    <string name="mabo">Manage Booking</string>
+    <string name="cont">Contact Us</string>
+    <string name="or">or</string>
+    <string name="app_name">Booking Kuwait</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>My Booking</item>
+        <item>About Us</item>
+        <item>Services</item>
+        <item>News</item>
+        <item>Contact Us</item>
+        <item>Mail Us</item>
+    </string-array>
+
+    <!-- Flight Class Spinner Items -->
+    <string-array name="class_spinner_items">
+        <item>Economy</item>
+        <item>Premium Economy</item>
+        <item>Business Class</item>
+        <item>First Class</item>
+    </string-array>
+
+        <!-- Hotel Room Nos -->
+    <string-array name="room_spinner_items">
+        <item>Room 1</item>
+        <item>Room 2</item>
+        <item>Room 3</item>
+        <item>Room 4</item>
+        <item>Room 5</item>
+    </string-array>
+    
+    <string name="no_match">No entries matching your parameter</string>
+    <string name="error_title">Error</string>
+    <string name="error_msg_empty_dep_arr">Departure or Arrival Airport should not be empty.</string>
+    <string name="error_msg_same_dep_arr">Departure and Arrival Airport should not be same.</string>
+    <string name="error_msg_same_dep_arr_multi_1">Departure and Arrival Airport should not be same.(Trip 1)</string>
+    <string name="error_msg_same_dep_arr_multi_2">Departure and Arrival Airport should not be same.(Trip 2)</string>
+    <string name="error_msg_same_dep_arr_multi_3">Departure and Arrival Airport should not be same.(Trip 3)</string>
+    <string name="error_msg_same_dep_arr_multi_4">Departure and Arrival Airport should not be same.(Trip 4)</string>
+    <string name="error_search_lmt">We can only search for a maximum of 9 passengers</string>
+    <string name="error_infant_cnt">Please note that no. of infants cannot exceed no. of adults.</string>
+    <string name="ok">OK</string>
+    <string name="error_no_internet_title">Internet Access Not Available</string>
+    <string name="error_no_internet_msg">This application requires working internet access. Please connect to the internet and try again.</string>
+    <string name="error_no_internet_settings">Settings</string>
+    <string name="error_no_internet_cancel">Cancel</string>
+    <string name="error_no_internet_close_app">Close Application</string>
+    <string name="default_city_to">Dubai</string>
+    <string name="default_city_from">Kuwait</string>
+    <string name="exit_msg">Click again to exit</string>
+    <string name="passenger_no">Passenger(s)</string>
+    <string name="add_trip">Add Trip +</string>
+    <string name="remove_trip">Remove Trip -</string>
+    <string name="nationality">Nationality</string>
+    <string name="room">Room(s)</string>
+    <string name="room1">ROOM 1</string>
+    <string name="room2">ROOM 2</string>
+    <string name="room3">ROOM 3</string>
+    <string name="room4">ROOM 4</string>
+    <string name="room5">ROOM 5</string>
+    <string name="cityorhotel">Hotel Location</string>
+    <string name="type_city">Type City</string>
+    <string name="adult1">Adult (12+)</string>
+    <string name="child1">Child (2-11)</string>
+    <string name="infant1">Infant (&lt;2)</string>
+    <string name="add_room">ADD ROOM +</string>
+    <string name="remove_room">REMOVE -</string>
+    <string name="adult_nos">No. of adults</string>
+    <string name="child_nos">No. of Child(ren)</string>
+    <string name="guests">Guests,</string>
+    <string name="child1_age">Child 1 Age : </string>
+    <string name="child2_age">Child 2 Age : </string>
+    <string name="child3_age">Age of Child 3</string>
+    <string name="child4_age">Age of Child 4</string>
+    <string name="search_city_hotel">Search for a Hotel</string>
+    <string name="search_nation">Search for your Nationality</string>
+    <string name="hotel_for_trip">I ONLY NEED A HOTEL FOR PART OF MY TRIP</string>
+    <string name="err_msg_select_city">Please select a City</string>
+    <string name="err_msg_select_nation">Please select your Nationality</string>
+    <string name="depart_date">Depart Date</string>
+    <string name="arrival_date">Arrival Date</string>
+    <string name="depart_time">Depart Time</string>
+    <string name="arrival_time">Arrival Time</string>
+    <string name="return_date">Return Date</string>
+    <string name="checkin_date">Check-In Date</string>
+    <string name="checkout_date">Check-Out Date</string>
+    <string name="err_child_grt_adult">Number of children less than two years cannot exceed adults</string>
+    <string name="about_content">Booking Express started its humble beginning with IATA accreditation in 2005. Today with our keen expertise and dedication we turned into one of the leading players in the travel and tourism industry.
+        \n\nTravels with its steadfast commitment to achieve business excellence already created a space in the industry and is well known for its outstanding quality services, business ethics and integrity.
+        \n\nBooking Express is formulated by a perfect unite of highly qualified and experienced professionals from the Travel and Tourism industry, dedicated to work with a mission to enhance and enrich the industry with quality service and to create a hassle free environment for the customers.
+		\n\nAt Booking Express nothing is more important than customer satisfaction and we are always ready to meet the requirements of our precious customers which give us a best rank among other competitors. But we call this best as better because we know there is no upper slab for the best and this gives us the spirit for further improvement towards excellence.</string>
+    <string name="contact_content">Nafisi Complex\nNext To JW Marriott\nAnd Al Muthanna Complex\nKuwait City\nKuwait</string>
+    <string name="service_content">Content to be added</string>
+    <string name="flights_to">Flight to</string>
+    <string name="modify">Modify Search</string>
+    <string name="hotels">Hotels</string>
+    <string name="name">Search by hotel name</string>
+    <string name="years12">12+ Years</string>
+    <string name="years212">2-12 Years</string>
+    <string name="years2">&lt;2 Years</string>
+    <string name="non_stop">Non stop</string>
+    <string name="one_stop">stop</string>
+    <string name="more_stop">stops</string>
+    <string name="sort">Sort</string>
+    <string name="sortby">Sort by:</string>
+
+    <string-array name="sort_items_flight">
+        <item>LOW-TO-HIGH</item>
+        <item>HIGH-TO-LOW</item>
+        <item>LOW-TO-HIGH</item>
+        <item>HIGH-TO-LOW</item>
+        <item>LOW-TO-HIGH</item>
+        <item>HIGH-TO-LOW</item>
+        <item>LOW-TO-HIGH</item>
+        <item>HIGH-TO-LOW</item>
+        <item>A-Z</item>
+        <item>Z-A</item>
+    </string-array>
+    <string-array name="sort_item_flight_heading">
+        <item>Price</item>
+        <item>Departure</item>
+        <item>Arrival</item>
+        <item>Duration</item>
+        <item>Airline</item>
+    </string-array>
+
+    <string name="refine_search">Refine Your Search</string>
+    <string name="timing_from">Timings: From</string>
+    <string name="timing_to">Timings: To</string>
+    <string name="amam">12AM-6AM</string>
+    <string name="ampm">6AM-12PM</string>
+    <string name="pmpm">12PM-6PM</string>
+    <string name="pmam">6PM-12AM</string>
+    <string name="price">Price</string>
+    <string name="duration">Duration</string>
+    <string name="airline">Airline</string>
+    <string name="layover">Layover Duration</string>
+    <string name="layover_airports">Layover Airports</string>
+    <string name="stops">Stops</string>
+    <string name="one_stp">1 Stop Flights</string>
+    <string name="one_plus_stp">1+ Stop Flights</string>
+    <string name="rating">Star Rating</string>
+    <string name="boardtype">Board types</string>
+    <string name="breakfast_included">Breakfast included</string>
+    <string name="apply">Apply</string>
+    <string name="filter">Filter</string>
+    <string name="no_result">No results matching your search criteria</string>
+    <string name="lowest_first">Lowest first</string>
+    <string name="shortest_first">Shortest first</string>
+    <string name="highest_first">Highest first</string>
+    <string name="longest_first">Longest first</string>
+    <string name="searching_hotel">Please wait while we search best fares for you</string>
+    <string name="searching_flight">Please wait while we search best fares for you</string>
+    <string name="checking_hotel">Reconfirming fare...</string>
+    <string name="checking_flight">Reconfirming fare...</string>
+    <string name="loading">Loading...</string>
+    <string name="flight_expired">Fares have been updated, updating new fares</string>
+    <string name="hotel_expired">Fares have been updated, updating new fares</string>
+    <string name="flight_expired_web">Fares have been updated</string>
+    <string name="hotel_expired_web">Fares have been updated</string>
+    <string name="reset_filter">Reset Filter</string>
+    <string name="refund">(Refundable)</string>
+    <string name="non_refund">(Non-Refundable)</string>
+    <string name="total_price_tax">(Inclusive of tax)</string>
+    <string name="flight_details">Flight Details</string>
+    <string name="map_view">Map View</string>
+    <string name="book">BOOK</string>
+    <string name="baggage_info">Baggage Info</string>
+    <string name="baggage_travel_fusion">You can choose baggage before payment</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="days_back">Days back</string>
+    <string name="people_watch">Person(s) watching</string>
+
+    <string-array name="sort_items_hotel">
+        <item>Low to High</item>
+        <item>High to Low</item>
+        <item>Low to High</item>
+        <item>High to Low</item>
+        <item>A to Z</item>
+        <item>Z to A</item>
+    </string-array>
+    <string-array name="sort_item_hotel_heading">
+        <item>Price</item>
+        <item>Rating</item>
+        <item>Hotel Name</item>
+    </string-array>
+
+    <string name="plane_change">Transit Time: </string>
+    <string name="view_details">Details</string>
+    <string name="baggage">Baggage : </string>
+    <string name="booking_class">Booking Class</string>
+    <string name="meals">Meals</string>
+    <string name="total_duration">Total Duration : </string>
+    <string name="onward">ONWARD</string>
+
+</resources>

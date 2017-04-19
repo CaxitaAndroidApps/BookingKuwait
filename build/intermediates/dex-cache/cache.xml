@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\6f79ad02d6b8b5f30a2addc49abe2e996a56c0e4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3c7f923e1df76640acb3a24823600f034a5d226">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_df5bef92bd8523a9aadeaa1d7dd4449ff8c24b94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\aaac1cc67efe5d2cbd1c6fddf040518d251de433\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_81931a51dba5ac53ea7156d8ba735da5693e6f98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\322557a2041ab48765cfffe80721451ae3e5454c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="825c2e97a00df4df5b0f3081faa4fd6280cd7c72">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_064a028c47d4cc83ed94e410e3828b440fee8833\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\bf5aa655e342442d1e36c6be535fefa516482517\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8078f85c9f9a38ab90b6448ae95e7dde24fad5f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\5abb829bd0d44a461cd93c6510a9bc30452e71b5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9225f6ce67722d2ee7e9992995536c7768920f61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\ba69ff9c57f74bf179d89a7057e06dd33c15fd0d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c74dab42788b458960618238f338d324b6f0656">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_88da1d46a928b94d1c56507e8404be7db3624bb6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\54206ad1f622f0ca11e2ddf684cffc20657003d0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d81a3b0a16f48b4456f442552b62f4b1a472ce24">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b37e0347fe715fc11e51a112f293dbf75a8016aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\0ec45c478c28e89c3d46188b85ce589fa7076813\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7db729d18a0af384e92ba750678fd2a2811ebd85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\43bc89f6fb1cdca85f0d819213908041c3325693\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d5e16277504ee0a30eb8afeaee9e7545e6b922c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\57b55115f60e938aebfe69ded178ccadb73c77bd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a4fcd056631da48a9fa23b38fb8faf814df4fd30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\abf97a12804afe1d7271d193ebfc6bee0cd83bfd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f583be5a9983bcff99e7a3a312334f7896b1ca37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\5e973ae5fb3c7db806c629b9d37a4c358c056a05\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_45fe879f3404f788b045099d5173864529036ffd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\8997f0fd834def00ab246b531e64a0b100cf228e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_801732feec5ef994bba8b9eb4caf0bd86263029d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\354cec1f962f5af39cb6a738cbb47be05b6e4331\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6be3e9a9af5d75ab09c1a836c540ead1831ed1be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\5ebea71512d85e97cd7a8e69bc1a4e3407303c69\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44098e691b36776973374ac03afe0225b17f8a74">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c4e82c723aac9595bd4dbbd851215ffd321d7e09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\86f376c17a21a023c5fbafc5cab753395d50eec3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cce5792fa30ee8520620f298bf920309423b180f">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dfab2d12a2294bbd3fad759bb2e76fc5317d4cd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\b2de5fe6523d9da451feaa6a9388758f00686b10\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbae35d7fc3427d30bef0037bdf61ad0d8d984f8">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_de6969967165bb2ab6b69450d04d1542dd8e2873\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\59f9c192a717e69ee19d53d4ae1bca03a5d44422\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b136ac09f209c1d91fec7db8518e33d4373c8f39">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf84fb34fa25c59ebe76356d648516ed30ff5dc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\6fd3732be2ed62fc337b6f61957574af02e96d61\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_476ca6229a34d4f6a69db0f1fb61056c379961ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\3be2b79775cc8809693aa5072d42ba9ecd472c21\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7578ed94d57b61e9ec3ce3c64d1ad87e0a84bc58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\0e35cbd9ec1a3e53787b92fff4e76d3875b80d90\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_be276bcec8678eb6dfd8010fb878285a18b6b497\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\04e446671467918ba14670c7f39ee80bee32f788\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a29bfb73fa16320fd50627ed0e9ea4d5221e69ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68455e7a95f07848d16267bf75829d077132f128">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ec5de1135831c18b18fbdb894ddf59639ebc8be8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\124c4008bbba744e56caa3cfd0c1699384011c10\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f9df8b2bfff203397548ee400789154968adfe8">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f2522258c54c9a586fb96b3481fc63122531acb7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\3692c38b50fc1f6d692b82fea1d24031475d1d36\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2863f1033fea9f4dc8a5432f802ff6614c882b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\2b64bf4e34a8284fb9673e3d30c082e30639f12b\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_3aa0649060a7b66bb5061f3b3f36bd63c3c1e95c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\abef36319afd191d7b8cc5de67148f11edd027a0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d395c5142f474891c7750f13b6a85d14682f166b">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_07aa22d24563703ff0650e6e5e0435e6d5b0ce02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\7282e02e48c9fe023b277d768521a60f791b1488\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bead1695395d8725874bbd0bd87616d212dd7354\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\8ce02e74a6eb5384d163be0485a9f44eec31c022\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4851331b3944beb6e7f77316a7661f53781da62">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7fadd1e92ae244ce1286fc6e475f294feb99a828\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\683eb8d3db37c62eca9c2467bda978a954a74330\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a583cc2a2aaf6ffad3a146fb0d98b9e16d93fc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\cc5bdc4ad8b2ed9c82c5ab0636772dd4329cdf68\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2fd4be32db98217634e5070daf7752dd4f62b0f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\bef8736cc8408e498bc0ff687522b0918fc69d0b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="536fd6afd6e1280607c5d70306eb32d385db7964">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_999a27f99b0f57fe04335d8cbd72f07b50e5b8b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d9295229376a2e1dd38899dce6a9a589db7dc5f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\2ae3f7a42283c3bf86cec31b37164e59a5a93dd3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d7911ad40eccf3a1b13c60a2691ff0e2881726dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\d74d8a6c4f4001977c408cb145676f427559a07b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ee29abfc804ebd51d65a4bde424c0ee74363939">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d0aeab57c77a5663f3fad19381bc1a529cc3a421\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\f426d563e272d2354052469e47d4b7ce1c5b3913\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bb2f0934fa55799508ba58ffc9ba579b35744b8">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84f62664ef5d7b49f540c76166a2de6f481573f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\92c9350af0b7ca53ab03df0c3f216b5eb78350f0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_52cd7588883ed3116806eae9adb16177841aa0e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\8ebe4aa1cd2f072c2296a3b900c390c9a02778d2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efae381df589f3d4977c346c8a980f030315bb8b">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ce54ef4e09b92bd9ef26c8959862afc9c2526dff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\6d641dd4cbff5e3c841a9f8a2248cf1a1a64cd1b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f233cb35a6ea92364130d2d48791c461ec65983">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_73a867bed9dc5a8e02d6986313124c8880eaaeba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\9120e752288015a43958bea685ebbf9b0e8eb4e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa6bec090c6b5b2fc13823c46f9dc7fd55e8ca4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\00052c650a564d45eba5532ab6aea902dca2150a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_575c4dd53dcf002d34f537716930cd1530d00a36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\c48f9c199ad6761ecbfe27e9a255797be54bbf49\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb004ea36f8802bad30000e286c177691740a322">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_418405f3f5cac87b259cc7bb0854984c73d2a4ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\27839abb48cce67d1776b5ba69781bd07bec19b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fb5f8bb514e657c863f77f8735fd4f4808b75823\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\0e90e0189f974e676468e951c8c8307776e04f48\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8dfe54fbaf4f2a27d395ddf806d0c011170999e0">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_739cb1aab6b7b519137091658d7adb6fe241c4a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\adt-bundle-windows-x86-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_6fe1bb935699f0e93053fee9ab9cb571651117e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\2b64bf4e34a8284fb9673e3d30c082e30639f12b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e80ab8b8e76c9b97fac18a35d550c1220d1b92bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\65dc4e2c7c543d56ca6e4806aaa68b7498fa6bfc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7ba26433d9e9f4429d83ff65ad79bfc801dc00a">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ab5e26a800ce45c5208167906aa15e135a4c2337\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\94b4926c137229a2d3cbde2faac9c2742736d319\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dbe81a939acaef316c351cbc3cb356ea31c75142\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\92663a9027f61b86bd2aa59581933f18b9641c0f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b32372f6821e003ae24cd3389bdd7925247f100">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_15078404996ac0d247c8316f4209281db1eabc49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\d246352962250c898f5f02c913dfb92ff242930c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ce5cd7e69985d2433051fde5ef3379bb683eebd0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\34c3364bdb4cf157fb1a0221a0a57d006b26cdc8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d67042688d34474a82fe4ef4c6514ef471377ef">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b30cc3c0090fc274e2b528b06db6752bec89526\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\f293af4fe12c8807a111decf6adf07045b3e91e1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_041297abe65152307be759ef6b24e9f713ba8370\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\1708e7a7372cafdf44a65ff3b767e526da40b7f7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6818f5804ca0b5eb089d902458faea4179eca1d">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_92bea65b67f8b9eb53e6274c2506881e3bed48d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\a6c440f1b3282f600f026f8fb80f6f9b5d8690db\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3826817a4de1daa170c33bbc04db24ab6826bd5">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ced388090cf135c862c7607d32a96b8dc430e2fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\05a0d00dbd7598f51ace4fe4ee234882bbf3e765\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="125bce1fb2d481b964fabf75f0949957ebe9ecd1">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1dfb2ba673dc7b38f2d3dbb2daf6d145090255fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\2f4e11172520add8afe782e935937f44e234f246\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="E:\StudioWS\Booking Kuwait\bookingKuwait\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9099e5f71f2beb46ddf25200e791460249a9756f\classes.dex" />
+    </item>
+
+</items>

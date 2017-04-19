@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonfocus" >
+
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/std_color"
+            android:gravity="center"
+            android:text="suggestion header"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif-condensed" />
+
+        <ImageButton
+            android:id="@+id/ib_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/close_btn" />
+    </RelativeLayout>
+
+    <AutoCompleteTextView
+        android:id="@+id/act_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="suggestion hint" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <TextView
+        android:id="@+id/tv_no_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_match"
+        android:textColor="@android:color/black"
+        android:visibility="gone"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

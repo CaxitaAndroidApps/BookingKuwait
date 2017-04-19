@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#E6000000"  >
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_close"
+        android:layout_margin="5dp"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/iv_close"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/ll_KWD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_border"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/kw" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="KWD - Kuwait Dinar"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_INR"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/inr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="INR - Indian Rupee"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LL_USD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/usa" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="USD - US Dollar"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/ll_QAR"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/qar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="QAR - Qatari Riyal"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_EUR"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_border"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/eur" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="EUR - Euro"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LL_AED"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ae" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="AED - Emirati Dirham"
+                    android:textColor="@android:color/white"
+                    android:textSize="11dp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/LL_SAR"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/sa" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="SAR - Saudi Arabian Riyal"
+                    android:textColor="@android:color/white"
+                    android:textSize="11dp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_IQD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iqd" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="IQD - Iraqi Dinar"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_GBP"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/gbp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="GBP - British Pound"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/ll_GEL"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/gel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="GEL - Georgian Lari"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_BHD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/bhd" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="BHD - Bahraini Dinar"
+                    android:textColor="@android:color/white"
+                    android:textSize="11dp"
+                    android:fontFamily="sans-serif-condensed" />
+            </LinearLayout>
+            
+            <LinearLayout
+                    android:id="@+id/ll_OMR"
+                    android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_margin="5dp"
+	                android:layout_weight="1"
+	                android:background="@drawable/transparent_border"
+	                android:gravity="center"
+	                android:orientation="vertical"
+	                android:padding="10dp" >
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/omr" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="OMR - Omani Rial"
+                        android:textColor="@android:color/white"
+                        android:textSize="10dp" />
+                </LinearLayout>
+            
+        </LinearLayout>
+
+    </LinearLayout>
+    
+</RelativeLayout>
+    

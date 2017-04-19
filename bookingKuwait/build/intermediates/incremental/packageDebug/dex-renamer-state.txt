@@ -1,0 +1,7 @@
+#Wed Apr 19 16:34:10 IST 2017
+base.0=E\:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ec5de1135831c18b18fbdb894ddf59639ebc8be8
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d9295229376a2e1dd38899dce6a9a589db7dc5f0\\classes.dex
+base.1=E\:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d9295229376a2e1dd38899dce6a9a589db7dc5f0
+file.0=E\:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ec5de1135831c18b18fbdb894ddf59639ebc8be8\\classes.dex

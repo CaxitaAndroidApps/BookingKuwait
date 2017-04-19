@@ -1,0 +1,5058 @@
+[
+    {
+        "outputFile": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 7,
+                    "endColumn": 19,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 1947,
+                        "endLine": 56,
+                        "endColumn": 19,
+                        "endOffset": 2174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 332,
+                    "endLine": 16,
+                    "endColumn": 19,
+                    "endOffset": 603
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1416,
+                        "endLine": 42,
+                        "endColumn": 19,
+                        "endOffset": 1695
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 608,
+                    "endLine": 23,
+                    "endColumn": 19,
+                    "endOffset": 808
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 2211,
+                        "endLine": 65,
+                        "endColumn": 19,
+                        "endOffset": 2417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 813,
+                    "endLine": 30,
+                    "endColumn": 19,
+                    "endOffset": 1017
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 6801,
+                        "endLine": 151,
+                        "endColumn": 19,
+                        "endOffset": 7011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1022,
+                    "endLine": 35,
+                    "endColumn": 19,
+                    "endOffset": 1171
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 209,
+                        "startColumn": 4,
+                        "startOffset": 10593,
+                        "endLine": 213,
+                        "endColumn": 19,
+                        "endOffset": 10746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1176,
+                    "endLine": 47,
+                    "endColumn": 19,
+                    "endOffset": 1613
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 6347,
+                        "endLine": 144,
+                        "endColumn": 19,
+                        "endOffset": 6795
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 1618,
+                    "endLine": 55,
+                    "endColumn": 19,
+                    "endOffset": 1886
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 201,
+                        "startColumn": 4,
+                        "startOffset": 10312,
+                        "endLine": 208,
+                        "endColumn": 19,
+                        "endOffset": 10587
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 1891,
+                    "endColumn": 116,
+                    "endOffset": 2003
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 116,
+                        "endOffset": 167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2008,
+                    "endColumn": 107,
+                    "endOffset": 2111
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 172,
+                        "endColumn": 107,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 2116,
+                    "endColumn": 122,
+                    "endOffset": 2234
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 122,
+                        "endOffset": 398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 2239,
+                    "endColumn": 103,
+                    "endOffset": 2338
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 103,
+                        "endOffset": 502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 2343,
+                    "endColumn": 108,
+                    "endOffset": 2447
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 507,
+                        "endColumn": 108,
+                        "endOffset": 611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 2452,
+                    "endColumn": 81,
+                    "endOffset": 2529
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 616,
+                        "endColumn": 81,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 2534,
+                    "endColumn": 100,
+                    "endOffset": 2630
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 698,
+                        "endColumn": 100,
+                        "endOffset": 794
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 2635,
+                    "endColumn": 113,
+                    "endOffset": 2744
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 799,
+                        "endColumn": 113,
+                        "endOffset": 908
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 2749,
+                    "endColumn": 78,
+                    "endOffset": 2823
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 913,
+                        "endColumn": 78,
+                        "endOffset": 987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 2828,
+                    "endColumn": 78,
+                    "endOffset": 2902
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 992,
+                        "endColumn": 78,
+                        "endOffset": 1066
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 2907,
+                    "endColumn": 78,
+                    "endOffset": 2981
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1071,
+                        "endColumn": 78,
+                        "endOffset": 1145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 2986,
+                    "endColumn": 104,
+                    "endOffset": 3086
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1150,
+                        "endColumn": 104,
+                        "endOffset": 1250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 3091,
+                    "endColumn": 100,
+                    "endOffset": 3187
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1255,
+                        "endColumn": 100,
+                        "endOffset": 1351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 3192,
+                    "endColumn": 95,
+                    "endOffset": 3283
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1356,
+                        "endColumn": 95,
+                        "endOffset": 1447
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 3288,
+                    "endColumn": 107,
+                    "endOffset": 3391
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1452,
+                        "endColumn": 107,
+                        "endOffset": 1555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 3396,
+                    "endColumn": 102,
+                    "endOffset": 3494
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 102,
+                        "endOffset": 1658
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 3499,
+                    "endColumn": 102,
+                    "endOffset": 3597
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1663,
+                        "endColumn": 102,
+                        "endOffset": 1761
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 3602,
+                    "endColumn": 118,
+                    "endOffset": 3716
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1766,
+                        "endColumn": 118,
+                        "endOffset": 1880
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 3721,
+                    "endColumn": 96,
+                    "endOffset": 3813
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1885,
+                        "endColumn": 96,
+                        "endOffset": 1977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 3818,
+                    "endColumn": 35,
+                    "endOffset": 3849
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1703,
+                        "endColumn": 35,
+                        "endOffset": 1734
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 3854,
+                    "endLine": 78,
+                    "endColumn": 283,
+                    "endOffset": 4556
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 197,
+                        "startColumn": 4,
+                        "startOffset": 9600,
+                        "endLine": 199,
+                        "endColumn": 283,
+                        "endOffset": 10304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 4561,
+                    "endColumn": 69,
+                    "endOffset": 4626
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\5abb829bd0d44a461cd93c6510a9bc30452e71b5\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 237,
+                        "endColumn": 65,
+                        "endOffset": 302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 4631,
+                    "endColumn": 47,
+                    "endOffset": 4674
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 4715,
+                        "endColumn": 47,
+                        "endOffset": 4758
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 4679,
+                    "endColumn": 49,
+                    "endOffset": 4724
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 4003,
+                        "endColumn": 49,
+                        "endOffset": 4048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 4729,
+                    "endColumn": 38,
+                    "endOffset": 4763
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 836,
+                        "endColumn": 38,
+                        "endOffset": 870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 4768,
+                    "endColumn": 48,
+                    "endOffset": 4812
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 4558,
+                        "endColumn": 48,
+                        "endOffset": 4602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 4817,
+                    "endColumn": 49,
+                    "endOffset": 4862
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 4858,
+                        "endColumn": 49,
+                        "endOffset": 4903
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 4867,
+                    "endColumn": 48,
+                    "endOffset": 4911
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 7457,
+                        "endColumn": 48,
+                        "endOffset": 7501
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 4916,
+                    "endColumn": 48,
+                    "endOffset": 4960
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 7174,
+                        "endColumn": 48,
+                        "endOffset": 7218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 4965,
+                    "endColumn": 48,
+                    "endOffset": 5009
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 7224,
+                        "endColumn": 48,
+                        "endOffset": 7268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 5014,
+                    "endColumn": 39,
+                    "endOffset": 5049
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 170,
+                        "startColumn": 4,
+                        "startOffset": 7877,
+                        "endColumn": 39,
+                        "endOffset": 7912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 5054,
+                    "endColumn": 40,
+                    "endOffset": 5090
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 40,
+                        "endOffset": 143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 5095,
+                    "endColumn": 40,
+                    "endOffset": 5131
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 748,
+                        "endColumn": 40,
+                        "endOffset": 784
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 5136,
+                    "endColumn": 53,
+                    "endOffset": 5185
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 5482,
+                        "endColumn": 53,
+                        "endOffset": 5531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 5190,
+                    "endColumn": 51,
+                    "endOffset": 5237
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 5591,
+                        "endColumn": 51,
+                        "endOffset": 5638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 5242,
+                    "endColumn": 43,
+                    "endOffset": 5281
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 216,
+                        "startColumn": 4,
+                        "startOffset": 10803,
+                        "endColumn": 43,
+                        "endOffset": 10842
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 5286,
+                    "endColumn": 56,
+                    "endOffset": 5338
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 188,
+                        "startColumn": 4,
+                        "startOffset": 9021,
+                        "endColumn": 56,
+                        "endOffset": 9073
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 5343,
+                    "endColumn": 80,
+                    "endOffset": 5419
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 189,
+                        "startColumn": 4,
+                        "startOffset": 9079,
+                        "endColumn": 80,
+                        "endOffset": 9155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 5424,
+                    "endColumn": 55,
+                    "endOffset": 5475
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 7820,
+                        "endColumn": 55,
+                        "endOffset": 7871
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 5480,
+                    "endColumn": 36,
+                    "endOffset": 5512
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 186,
+                        "startColumn": 4,
+                        "startOffset": 8922,
+                        "endColumn": 36,
+                        "endOffset": 8954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 5517,
+                    "endColumn": 52,
+                    "endOffset": 5565
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 217,
+                        "startColumn": 4,
+                        "startOffset": 10848,
+                        "endColumn": 52,
+                        "endOffset": 10896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 5570,
+                    "endColumn": 64,
+                    "endOffset": 5630
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 220,
+                        "startColumn": 4,
+                        "startOffset": 11001,
+                        "endColumn": 64,
+                        "endOffset": 11061
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 5635,
+                    "endColumn": 44,
+                    "endOffset": 5675
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 271,
+                        "endColumn": 44,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 5680,
+                    "endColumn": 77,
+                    "endOffset": 5753
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 298,
+                        "endColumn": 73,
+                        "endOffset": 371
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 5758,
+                    "endColumn": 102,
+                    "endOffset": 5856
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 372,
+                        "endColumn": 98,
+                        "endOffset": 470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 5861,
+                    "endColumn": 105,
+                    "endOffset": 5962
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 471,
+                        "endColumn": 101,
+                        "endOffset": 572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 5967,
+                    "endColumn": 127,
+                    "endOffset": 6090
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 573,
+                        "endColumn": 123,
+                        "endOffset": 696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 6095,
+                    "endColumn": 85,
+                    "endOffset": 6176
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 697,
+                        "endColumn": 81,
+                        "endOffset": 778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 6181,
+                    "endColumn": 159,
+                    "endOffset": 6336
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 779,
+                        "endColumn": 155,
+                        "endOffset": 934
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 6341,
+                    "endColumn": 119,
+                    "endOffset": 6456
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 935,
+                        "endColumn": 115,
+                        "endOffset": 1050
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 6461,
+                    "endColumn": 112,
+                    "endOffset": 6569
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1051,
+                        "endColumn": 108,
+                        "endOffset": 1159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 6574,
+                    "endColumn": 113,
+                    "endOffset": 6683
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1160,
+                        "endColumn": 109,
+                        "endOffset": 1269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 6688,
+                    "endColumn": 104,
+                    "endOffset": 6788
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1270,
+                        "endColumn": 100,
+                        "endOffset": 1370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 6793,
+                    "endColumn": 101,
+                    "endOffset": 6890
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1371,
+                        "endColumn": 97,
+                        "endOffset": 1468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 6895,
+                    "endColumn": 81,
+                    "endOffset": 6972
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1469,
+                        "endColumn": 77,
+                        "endOffset": 1546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 6977,
+                    "endColumn": 94,
+                    "endOffset": 7067
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 1547,
+                        "endColumn": 90,
+                        "endOffset": 1637
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 7072,
+                    "endColumn": 97,
+                    "endOffset": 7165
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 1638,
+                        "endColumn": 93,
+                        "endOffset": 1731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 7170,
+                    "endColumn": 107,
+                    "endOffset": 7273
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 1732,
+                        "endColumn": 103,
+                        "endOffset": 1835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 7278,
+                    "endColumn": 77,
+                    "endOffset": 7351
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 1836,
+                        "endColumn": 73,
+                        "endOffset": 1909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 7356,
+                    "endColumn": 137,
+                    "endOffset": 7489
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\322557a2041ab48765cfffe80721451ae3e5454c\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 288,
+                        "endColumn": 137,
+                        "endOffset": 425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 7494,
+                    "endColumn": 140,
+                    "endOffset": 7630
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\322557a2041ab48765cfffe80721451ae3e5454c\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 426,
+                        "endColumn": 140,
+                        "endOffset": 566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 7635,
+                    "endColumn": 98,
+                    "endOffset": 7729
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\322557a2041ab48765cfffe80721451ae3e5454c\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 567,
+                        "endColumn": 94,
+                        "endOffset": 661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 7734,
+                    "endColumn": 79,
+                    "endOffset": 7809
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 1910,
+                        "endColumn": 75,
+                        "endOffset": 1985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 7814,
+                    "endColumn": 73,
+                    "endOffset": 7883
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 0,
+                        "startOffset": 1986,
+                        "endColumn": 69,
+                        "endOffset": 2055
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 7888,
+                    "endColumn": 75,
+                    "endOffset": 7959
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 2056,
+                        "endColumn": 71,
+                        "endOffset": 2127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 7964,
+                    "endColumn": 88,
+                    "endOffset": 8048
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 0,
+                        "startOffset": 2128,
+                        "endColumn": 84,
+                        "endOffset": 2212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 8053,
+                    "endColumn": 91,
+                    "endOffset": 8140
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 0,
+                        "startOffset": 2213,
+                        "endColumn": 87,
+                        "endOffset": 2300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 8145,
+                    "endColumn": 89,
+                    "endOffset": 8230
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 0,
+                        "startOffset": 2301,
+                        "endColumn": 85,
+                        "endOffset": 2386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 8235,
+                    "endColumn": 97,
+                    "endOffset": 8328
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 0,
+                        "startOffset": 2387,
+                        "endColumn": 93,
+                        "endOffset": 2480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 8333,
+                    "endColumn": 97,
+                    "endOffset": 8426
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 0,
+                        "startOffset": 2481,
+                        "endColumn": 93,
+                        "endOffset": 2574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 8431,
+                    "endColumn": 73,
+                    "endOffset": 8500
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 0,
+                        "startOffset": 2575,
+                        "endColumn": 69,
+                        "endOffset": 2644
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 8505,
+                    "endColumn": 98,
+                    "endOffset": 8599
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 0,
+                        "startOffset": 2645,
+                        "endColumn": 94,
+                        "endOffset": 2739
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 8604,
+                    "endColumn": 96,
+                    "endOffset": 8696
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 0,
+                        "startOffset": 2740,
+                        "endColumn": 92,
+                        "endOffset": 2832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 8701,
+                    "endColumn": 97,
+                    "endOffset": 8794
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 0,
+                        "startOffset": 2833,
+                        "endColumn": 93,
+                        "endOffset": 2926
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 8799,
+                    "endColumn": 127,
+                    "endOffset": 8922
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 0,
+                        "startOffset": 2927,
+                        "endColumn": 123,
+                        "endOffset": 3050
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 8927,
+                    "endColumn": 151,
+                    "endOffset": 9074
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 0,
+                        "startOffset": 3051,
+                        "endColumn": 151,
+                        "endOffset": 3202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 9079,
+                    "endColumn": 124,
+                    "endOffset": 9199
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 0,
+                        "startOffset": 3203,
+                        "endColumn": 120,
+                        "endOffset": 3323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 9204,
+                    "endColumn": 135,
+                    "endOffset": 9335
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 0,
+                        "startOffset": 3324,
+                        "endColumn": 131,
+                        "endOffset": 3455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 9340,
+                    "endColumn": 96,
+                    "endOffset": 9432
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 0,
+                        "startOffset": 3456,
+                        "endColumn": 92,
+                        "endOffset": 3548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 9437,
+                    "endColumn": 93,
+                    "endOffset": 9526
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 0,
+                        "startOffset": 3549,
+                        "endColumn": 89,
+                        "endOffset": 3638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 9531,
+                    "endColumn": 112,
+                    "endOffset": 9639
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 0,
+                        "startOffset": 3639,
+                        "endColumn": 108,
+                        "endOffset": 3747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 9644,
+                    "endColumn": 81,
+                    "endOffset": 9721
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 0,
+                        "startOffset": 3748,
+                        "endColumn": 77,
+                        "endOffset": 3825
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 9726,
+                    "endColumn": 54,
+                    "endOffset": 9776
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 5698,
+                        "endColumn": 54,
+                        "endOffset": 5748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 9781,
+                    "endColumn": 65,
+                    "endOffset": 9842
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 8295,
+                        "endColumn": 65,
+                        "endOffset": 8356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 9847,
+                    "endColumn": 64,
+                    "endOffset": 9907
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 8229,
+                        "endColumn": 64,
+                        "endOffset": 8289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 9912,
+                    "endColumn": 56,
+                    "endOffset": 9964
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 5754,
+                        "endColumn": 56,
+                        "endOffset": 5806
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 9969,
+                    "endColumn": 46,
+                    "endOffset": 10011
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 4608,
+                        "endColumn": 46,
+                        "endOffset": 4650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 10016,
+                    "endColumn": 51,
+                    "endOffset": 10063
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 4959,
+                        "endColumn": 51,
+                        "endOffset": 5006
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 10068,
+                    "endColumn": 50,
+                    "endOffset": 10114
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 5012,
+                        "endColumn": 50,
+                        "endOffset": 5058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 10119,
+                    "endColumn": 48,
+                    "endOffset": 10163
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 5064,
+                        "endColumn": 48,
+                        "endOffset": 5108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 10168,
+                    "endColumn": 48,
+                    "endOffset": 10212
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 5114,
+                        "endColumn": 48,
+                        "endOffset": 5158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 10217,
+                    "endColumn": 48,
+                    "endOffset": 10261
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 4909,
+                        "endColumn": 48,
+                        "endOffset": 4953
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 10266,
+                    "endColumn": 42,
+                    "endOffset": 10304
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 876,
+                        "endColumn": 42,
+                        "endOffset": 914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 10309,
+                    "endColumn": 38,
+                    "endOffset": 10343
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1119,
+                        "endColumn": 38,
+                        "endOffset": 1153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 10348,
+                    "endColumn": 53,
+                    "endOffset": 10397
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1064,
+                        "endColumn": 53,
+                        "endOffset": 1113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 10402,
+                    "endColumn": 51,
+                    "endOffset": 10449
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 4405,
+                        "endColumn": 51,
+                        "endOffset": 4452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 10454,
+                    "endColumn": 38,
+                    "endOffset": 10488
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1159,
+                        "endColumn": 38,
+                        "endOffset": 1193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 10493,
+                    "endColumn": 105,
+                    "endOffset": 10594
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 101,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 10599,
+                    "endColumn": 175,
+                    "endOffset": 10770
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 385,
+                        "endColumn": 175,
+                        "endOffset": 560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 10775,
+                    "endColumn": 123,
+                    "endOffset": 10894
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 561,
+                        "endColumn": 119,
+                        "endOffset": 680
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 10899,
+                    "endColumn": 106,
+                    "endOffset": 11001
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 681,
+                        "endColumn": 102,
+                        "endOffset": 783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 11006,
+                    "endColumn": 196,
+                    "endOffset": 11198
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 784,
+                        "endColumn": 196,
+                        "endOffset": 980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 11203,
+                    "endColumn": 129,
+                    "endOffset": 11328
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 981,
+                        "endColumn": 125,
+                        "endOffset": 1106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 11333,
+                    "endColumn": 130,
+                    "endOffset": 11459
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1107,
+                        "endColumn": 126,
+                        "endOffset": 1233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 11464,
+                    "endColumn": 189,
+                    "endOffset": 11649
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\683eb8d3db37c62eca9c2467bda978a954a74330\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 189,
+                        "endOffset": 474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 11654,
+                    "endColumn": 195,
+                    "endOffset": 11845
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1234,
+                        "endColumn": 195,
+                        "endOffset": 1429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 11850,
+                    "endColumn": 105,
+                    "endOffset": 11951
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1430,
+                        "endColumn": 101,
+                        "endOffset": 1531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 11956,
+                    "endColumn": 180,
+                    "endOffset": 12132
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1532,
+                        "endColumn": 180,
+                        "endOffset": 1712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 12137,
+                    "endColumn": 123,
+                    "endOffset": 12256
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1713,
+                        "endColumn": 119,
+                        "endOffset": 1832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 12261,
+                    "endColumn": 197,
+                    "endOffset": 12454
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1833,
+                        "endColumn": 197,
+                        "endOffset": 2030
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 12459,
+                    "endColumn": 175,
+                    "endOffset": 12630
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2031,
+                        "endColumn": 171,
+                        "endOffset": 2202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 12635,
+                    "endColumn": 93,
+                    "endOffset": 12724
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2203,
+                        "endColumn": 89,
+                        "endOffset": 2292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 12729,
+                    "endColumn": 95,
+                    "endOffset": 12820
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2293,
+                        "endColumn": 91,
+                        "endOffset": 2384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 171,
+                    "startColumn": 4,
+                    "startOffset": 12825,
+                    "endColumn": 112,
+                    "endOffset": 12933
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2385,
+                        "endColumn": 108,
+                        "endOffset": 2493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 12938,
+                    "endColumn": 41,
+                    "endOffset": 12975
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 1826,
+                        "endColumn": 41,
+                        "endOffset": 1863
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 12980,
+                    "endColumn": 117,
+                    "endOffset": 13093
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 196,
+                        "startColumn": 4,
+                        "startOffset": 9481,
+                        "endColumn": 117,
+                        "endOffset": 9594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 13098,
+                    "endColumn": 122,
+                    "endOffset": 13216
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\5abb829bd0d44a461cd93c6510a9bc30452e71b5\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 303,
+                        "endColumn": 118,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 13221,
+                    "endColumn": 95,
+                    "endOffset": 13312
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\5abb829bd0d44a461cd93c6510a9bc30452e71b5\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 422,
+                        "endColumn": 91,
+                        "endOffset": 513
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 13317,
+                    "endColumn": 49,
+                    "endOffset": 13362
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 194,
+                        "startColumn": 4,
+                        "startOffset": 9372,
+                        "endColumn": 49,
+                        "endOffset": 9417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 13367,
+                    "endColumn": 38,
+                    "endOffset": 13401
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 38,
+                        "endOffset": 265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 13406,
+                    "endColumn": 102,
+                    "endOffset": 13504
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\5abb829bd0d44a461cd93c6510a9bc30452e71b5\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 514,
+                        "endColumn": 98,
+                        "endOffset": 612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 13509,
+                    "endColumn": 110,
+                    "endOffset": 13615
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\5abb829bd0d44a461cd93c6510a9bc30452e71b5\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 613,
+                        "endColumn": 106,
+                        "endOffset": 719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 13620,
+                    "endColumn": 98,
+                    "endOffset": 13714
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\5abb829bd0d44a461cd93c6510a9bc30452e71b5\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 720,
+                        "endColumn": 94,
+                        "endOffset": 814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 181,
+                    "startColumn": 4,
+                    "startOffset": 13719,
+                    "endColumn": 104,
+                    "endOffset": 13819
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\5abb829bd0d44a461cd93c6510a9bc30452e71b5\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 815,
+                        "endColumn": 100,
+                        "endOffset": 915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 13824,
+                    "endColumn": 69,
+                    "endOffset": 13889
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\5abb829bd0d44a461cd93c6510a9bc30452e71b5\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 916,
+                        "endColumn": 65,
+                        "endOffset": 981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 13894,
+                    "endColumn": 52,
+                    "endOffset": 13942
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 3841,
+                        "endColumn": 52,
+                        "endOffset": 3889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 184,
+                    "startColumn": 4,
+                    "startOffset": 13947,
+                    "endColumn": 47,
+                    "endOffset": 13990
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 3792,
+                        "endColumn": 47,
+                        "endOffset": 3835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 185,
+                    "startColumn": 4,
+                    "startOffset": 13995,
+                    "endColumn": 41,
+                    "endOffset": 14032
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 626,
+                        "endColumn": 41,
+                        "endOffset": 663
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 186,
+                    "startColumn": 4,
+                    "startOffset": 14037,
+                    "endColumn": 54,
+                    "endOffset": 14087
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 5426,
+                        "endColumn": 54,
+                        "endOffset": 5476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 14092,
+                    "endColumn": 52,
+                    "endOffset": 14140
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 5537,
+                        "endColumn": 52,
+                        "endOffset": 5585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 14145,
+                    "endColumn": 37,
+                    "endOffset": 14178
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 669,
+                        "endColumn": 37,
+                        "endOffset": 702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 14183,
+                    "endColumn": 46,
+                    "endOffset": 14225
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1199,
+                        "endColumn": 46,
+                        "endOffset": 1241
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 190,
+                    "startColumn": 4,
+                    "startOffset": 14230,
+                    "endColumn": 40,
+                    "endOffset": 14266
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 7415,
+                        "endColumn": 40,
+                        "endOffset": 7451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 191,
+                    "startColumn": 4,
+                    "startOffset": 14271,
+                    "endColumn": 46,
+                    "endOffset": 14313
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 46,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 192,
+                    "startColumn": 4,
+                    "startOffset": 14318,
+                    "endColumn": 64,
+                    "endOffset": 14378
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1299,
+                        "endColumn": 64,
+                        "endOffset": 1359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 14383,
+                    "endColumn": 102,
+                    "endOffset": 14481
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 5812,
+                        "endColumn": 102,
+                        "endOffset": 5910
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 194,
+                    "startColumn": 4,
+                    "startOffset": 14486,
+                    "endColumn": 69,
+                    "endOffset": 14551
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 5283,
+                        "endColumn": 69,
+                        "endOffset": 5348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 195,
+                    "startColumn": 4,
+                    "startOffset": 14556,
+                    "endColumn": 70,
+                    "endOffset": 14622
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 5354,
+                        "endColumn": 70,
+                        "endOffset": 5420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 196,
+                    "startColumn": 4,
+                    "startOffset": 14627,
+                    "endColumn": 93,
+                    "endOffset": 14716
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 3252,
+                        "endColumn": 93,
+                        "endOffset": 3341
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 14721,
+                    "endColumn": 90,
+                    "endOffset": 14807
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 2532,
+                        "endColumn": 90,
+                        "endOffset": 2618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 198,
+                    "startColumn": 4,
+                    "startOffset": 14812,
+                    "endColumn": 94,
+                    "endOffset": 14902
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 2624,
+                        "endColumn": 94,
+                        "endOffset": 2714
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 199,
+                    "startColumn": 4,
+                    "startOffset": 14907,
+                    "endColumn": 112,
+                    "endOffset": 15015
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 2720,
+                        "endColumn": 112,
+                        "endOffset": 2828
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 15020,
+                    "endColumn": 112,
+                    "endOffset": 15128
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 2834,
+                        "endColumn": 112,
+                        "endOffset": 2942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 15133,
+                    "endColumn": 112,
+                    "endOffset": 15241
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 2948,
+                        "endColumn": 112,
+                        "endOffset": 3056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 15246,
+                    "endColumn": 111,
+                    "endOffset": 15353
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3062,
+                        "endColumn": 111,
+                        "endOffset": 3169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 203,
+                    "startColumn": 4,
+                    "startOffset": 15358,
+                    "endColumn": 58,
+                    "endOffset": 15412
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 3661,
+                        "endColumn": 58,
+                        "endOffset": 3715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 204,
+                    "startColumn": 4,
+                    "startOffset": 15417,
+                    "endColumn": 69,
+                    "endOffset": 15482
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 3721,
+                        "endColumn": 69,
+                        "endOffset": 3786
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 205,
+                    "startColumn": 4,
+                    "startOffset": 15487,
+                    "endColumn": 122,
+                    "endOffset": 15605
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 3471,
+                        "endColumn": 122,
+                        "endOffset": 3589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 206,
+                    "startColumn": 4,
+                    "startOffset": 15610,
+                    "endColumn": 64,
+                    "endOffset": 15670
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 3595,
+                        "endColumn": 64,
+                        "endOffset": 3655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 207,
+                    "startColumn": 4,
+                    "startOffset": 15675,
+                    "endColumn": 81,
+                    "endOffset": 15752
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 3388,
+                        "endColumn": 81,
+                        "endOffset": 3465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 208,
+                    "startColumn": 4,
+                    "startOffset": 15757,
+                    "endColumn": 75,
+                    "endOffset": 15828
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 3175,
+                        "endColumn": 75,
+                        "endOffset": 3246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 209,
+                    "startColumn": 4,
+                    "startOffset": 15833,
+                    "endColumn": 44,
+                    "endOffset": 15873
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2486,
+                        "endColumn": 44,
+                        "endOffset": 2526
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 15878,
+                    "endColumn": 57,
+                    "endOffset": 15931
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 3895,
+                        "endColumn": 57,
+                        "endOffset": 3948
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 15936,
+                    "endColumn": 40,
+                    "endOffset": 15972
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 7918,
+                        "endColumn": 40,
+                        "endOffset": 7954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 15977,
+                    "endColumn": 40,
+                    "endOffset": 16013
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 149,
+                        "endColumn": 40,
+                        "endOffset": 185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 16018,
+                    "endColumn": 56,
+                    "endOffset": 16070
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 185,
+                        "startColumn": 4,
+                        "startOffset": 8864,
+                        "endColumn": 56,
+                        "endOffset": 8916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 214,
+                    "startColumn": 4,
+                    "startOffset": 16075,
+                    "endColumn": 80,
+                    "endOffset": 16151
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 178,
+                        "startColumn": 4,
+                        "startOffset": 8414,
+                        "endColumn": 80,
+                        "endOffset": 8490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 215,
+                    "startColumn": 4,
+                    "startOffset": 16156,
+                    "endColumn": 61,
+                    "endOffset": 16213
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 8577,
+                        "endColumn": 61,
+                        "endOffset": 8634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 216,
+                    "startColumn": 4,
+                    "startOffset": 16218,
+                    "endColumn": 35,
+                    "endOffset": 16249
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 458,
+                        "endColumn": 35,
+                        "endOffset": 489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 217,
+                    "startColumn": 4,
+                    "startOffset": 16254,
+                    "endColumn": 44,
+                    "endOffset": 16294
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 580,
+                        "endColumn": 44,
+                        "endOffset": 620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 218,
+                    "startColumn": 4,
+                    "startOffset": 16299,
+                    "endColumn": 43,
+                    "endOffset": 16338
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 4813,
+                        "endColumn": 43,
+                        "endOffset": 4852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 219,
+                    "startColumn": 4,
+                    "startOffset": 16343,
+                    "endColumn": 38,
+                    "endOffset": 16377
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endColumn": 38,
+                        "endOffset": 225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 220,
+                    "startColumn": 4,
+                    "startOffset": 16382,
+                    "endColumn": 79,
+                    "endOffset": 16457
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 8496,
+                        "endColumn": 79,
+                        "endOffset": 8571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 221,
+                    "startColumn": 4,
+                    "startOffset": 16462,
+                    "endColumn": 60,
+                    "endOffset": 16518
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 8640,
+                        "endColumn": 60,
+                        "endOffset": 8696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 222,
+                    "startColumn": 4,
+                    "startOffset": 16523,
+                    "endColumn": 39,
+                    "endOffset": 16558
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 920,
+                        "endColumn": 39,
+                        "endOffset": 955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 223,
+                    "startColumn": 4,
+                    "startOffset": 16563,
+                    "endColumn": 57,
+                    "endOffset": 16616
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 4656,
+                        "endColumn": 57,
+                        "endOffset": 4709
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 224,
+                    "startColumn": 4,
+                    "startOffset": 16621,
+                    "endColumn": 57,
+                    "endOffset": 16674
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\library\\build\\intermediates\\bundles\\default\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 225,
+                    "startColumn": 4,
+                    "startOffset": 16679,
+                    "endColumn": 46,
+                    "endOffset": 16721
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 7507,
+                        "endColumn": 46,
+                        "endOffset": 7549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 16726,
+                    "endColumn": 57,
+                    "endOffset": 16779
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 164,
+                        "startColumn": 4,
+                        "startOffset": 7555,
+                        "endColumn": 57,
+                        "endOffset": 7608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 16784,
+                    "endColumn": 47,
+                    "endOffset": 16827
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 531,
+                        "endColumn": 47,
+                        "endOffset": 574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 228,
+                    "startColumn": 4,
+                    "startOffset": 16832,
+                    "endColumn": 50,
+                    "endOffset": 16878
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 177,
+                        "startColumn": 4,
+                        "startOffset": 8362,
+                        "endColumn": 50,
+                        "endOffset": 8408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 16883,
+                    "endColumn": 44,
+                    "endOffset": 16923
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1780,
+                        "endColumn": 44,
+                        "endOffset": 1820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 230,
+                    "startColumn": 4,
+                    "startOffset": 16928,
+                    "endColumn": 48,
+                    "endOffset": 16972
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 191,
+                        "startColumn": 4,
+                        "startOffset": 9229,
+                        "endColumn": 48,
+                        "endOffset": 9273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 231,
+                    "startColumn": 4,
+                    "startOffset": 16977,
+                    "endColumn": 39,
+                    "endOffset": 17012
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 218,
+                        "startColumn": 4,
+                        "startOffset": 10902,
+                        "endColumn": 39,
+                        "endOffset": 10937
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 232,
+                    "startColumn": 4,
+                    "startOffset": 17017,
+                    "endColumn": 46,
+                    "endOffset": 17059
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 6210,
+                        "endColumn": 46,
+                        "endOffset": 6252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 233,
+                    "startColumn": 4,
+                    "startOffset": 17064,
+                    "endColumn": 44,
+                    "endOffset": 17104
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 6164,
+                        "endColumn": 44,
+                        "endOffset": 6204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 234,
+                    "startColumn": 4,
+                    "startOffset": 17109,
+                    "endColumn": 98,
+                    "endOffset": 17203
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 98,
+                        "endOffset": 149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 235,
+                    "startColumn": 4,
+                    "startOffset": 17208,
+                    "endColumn": 98,
+                    "endOffset": 17302
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 154,
+                        "endColumn": 98,
+                        "endOffset": 248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 236,
+                    "startColumn": 4,
+                    "startOffset": 17307,
+                    "endColumn": 83,
+                    "endOffset": 17386
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 253,
+                        "endColumn": 83,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 17391,
+                    "endColumn": 94,
+                    "endOffset": 17481
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 337,
+                        "endColumn": 94,
+                        "endOffset": 427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 17486,
+                    "endColumn": 104,
+                    "endOffset": 17586
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 432,
+                        "endColumn": 104,
+                        "endOffset": 532
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 17591,
+                    "endColumn": 95,
+                    "endOffset": 17682
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 537,
+                        "endColumn": 95,
+                        "endOffset": 628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 17687,
+                    "endColumn": 92,
+                    "endOffset": 17775
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endColumn": 92,
+                        "endOffset": 721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 17780,
+                    "endColumn": 94,
+                    "endOffset": 17870
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 726,
+                        "endColumn": 94,
+                        "endOffset": 816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 17875,
+                    "endColumn": 90,
+                    "endOffset": 17961
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 821,
+                        "endColumn": 90,
+                        "endOffset": 907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 17966,
+                    "endColumn": 110,
+                    "endOffset": 18072
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 912,
+                        "endColumn": 110,
+                        "endOffset": 1018
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 244,
+                    "startColumn": 4,
+                    "startOffset": 18077,
+                    "endColumn": 113,
+                    "endOffset": 18186
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1023,
+                        "endColumn": 113,
+                        "endOffset": 1132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 18191,
+                    "endColumn": 88,
+                    "endOffset": 18275
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1137,
+                        "endColumn": 88,
+                        "endOffset": 1221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 18280,
+                    "endColumn": 81,
+                    "endOffset": 18357
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1226,
+                        "endColumn": 81,
+                        "endOffset": 1303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 18362,
+                    "endColumn": 90,
+                    "endOffset": 18448
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1308,
+                        "endColumn": 90,
+                        "endOffset": 1394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 18453,
+                    "endColumn": 85,
+                    "endOffset": 18534
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1399,
+                        "endColumn": 85,
+                        "endOffset": 1480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 18539,
+                    "endColumn": 93,
+                    "endOffset": 18628
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1485,
+                        "endColumn": 93,
+                        "endOffset": 1574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 18633,
+                    "endColumn": 48,
+                    "endOffset": 18677
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 363,
+                        "endColumn": 48,
+                        "endOffset": 407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 18682,
+                    "endColumn": 51,
+                    "endOffset": 18729
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 4505,
+                        "endColumn": 51,
+                        "endOffset": 4552
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 18734,
+                    "endColumn": 47,
+                    "endOffset": 18777
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 4108,
+                        "endColumn": 47,
+                        "endOffset": 4151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 18782,
+                    "endColumn": 59,
+                    "endOffset": 18837
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 2425,
+                        "endColumn": 59,
+                        "endOffset": 2480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 18842,
+                    "endColumn": 72,
+                    "endOffset": 18910
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 7960,
+                        "endColumn": 72,
+                        "endOffset": 8028
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 18915,
+                    "endColumn": 59,
+                    "endOffset": 18970
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 184,
+                        "startColumn": 4,
+                        "startOffset": 8803,
+                        "endColumn": 59,
+                        "endOffset": 8858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 256,
+                    "startColumn": 4,
+                    "startOffset": 18975,
+                    "endColumn": 46,
+                    "endOffset": 19017
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 6073,
+                        "endColumn": 46,
+                        "endOffset": 6115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 19022,
+                    "endColumn": 39,
+                    "endOffset": 19057
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 3347,
+                        "endColumn": 39,
+                        "endOffset": 3382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 19062,
+                    "endColumn": 59,
+                    "endOffset": 19117
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 7710,
+                        "endColumn": 59,
+                        "endOffset": 7765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 19122,
+                    "endColumn": 41,
+                    "endOffset": 19159
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 6121,
+                        "endColumn": 41,
+                        "endOffset": 6158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 260,
+                    "startColumn": 4,
+                    "startOffset": 19164,
+                    "endColumn": 54,
+                    "endOffset": 19214
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 7654,
+                        "endColumn": 54,
+                        "endOffset": 7704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 261,
+                    "startColumn": 4,
+                    "startOffset": 19219,
+                    "endColumn": 43,
+                    "endOffset": 19258
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 413,
+                        "endColumn": 43,
+                        "endOffset": 452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 19263,
+                    "endColumn": 41,
+                    "endOffset": 19300
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 221,
+                        "startColumn": 4,
+                        "startOffset": 11067,
+                        "endColumn": 41,
+                        "endOffset": 11104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 19305,
+                    "endColumn": 33,
+                    "endOffset": 19334
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 1869,
+                        "endColumn": 33,
+                        "endOffset": 1898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 19339,
+                    "endColumn": 44,
+                    "endOffset": 19379
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 790,
+                        "endColumn": 44,
+                        "endOffset": 830
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 19384,
+                    "endColumn": 47,
+                    "endOffset": 19427
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 3954,
+                        "endColumn": 47,
+                        "endOffset": 3997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 266,
+                    "startColumn": 4,
+                    "startOffset": 19432,
+                    "endColumn": 56,
+                    "endOffset": 19484
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 195,
+                        "startColumn": 4,
+                        "startOffset": 9423,
+                        "endColumn": 56,
+                        "endOffset": 9475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 267,
+                    "startColumn": 4,
+                    "startOffset": 19489,
+                    "endColumn": 99,
+                    "endOffset": 19584
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8ce02e74a6eb5384d163be0485a9f44eec31c022\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 233,
+                        "endColumn": 95,
+                        "endOffset": 328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 19589,
+                    "endColumn": 94,
+                    "endOffset": 19679
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\8ce02e74a6eb5384d163be0485a9f44eec31c022\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 329,
+                        "endColumn": 90,
+                        "endOffset": 419
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 19684,
+                    "endColumn": 66,
+                    "endOffset": 19746
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 190,
+                        "startColumn": 4,
+                        "startOffset": 9161,
+                        "endColumn": 66,
+                        "endOffset": 9223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 270,
+                    "startColumn": 4,
+                    "startOffset": 19751,
+                    "endColumn": 48,
+                    "endOffset": 19795
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 7324,
+                        "endColumn": 48,
+                        "endOffset": 7368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 19800,
+                    "endColumn": 48,
+                    "endOffset": 19844
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 158,
+                        "startColumn": 4,
+                        "startOffset": 7274,
+                        "endColumn": 48,
+                        "endOffset": 7318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 19849,
+                    "endColumn": 50,
+                    "endOffset": 19895
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1247,
+                        "endColumn": 50,
+                        "endOffset": 1293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 19900,
+                    "endColumn": 39,
+                    "endOffset": 19935
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 7374,
+                        "endColumn": 39,
+                        "endOffset": 7409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 19940,
+                    "endColumn": 47,
+                    "endOffset": 19983
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 7771,
+                        "endColumn": 47,
+                        "endOffset": 7814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 19988,
+                    "endColumn": 50,
+                    "endOffset": 20034
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 7019,
+                        "endColumn": 50,
+                        "endOffset": 7065
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 20039,
+                    "endColumn": 43,
+                    "endOffset": 20078
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 8758,
+                        "endColumn": 43,
+                        "endOffset": 8797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 20083,
+                    "endColumn": 47,
+                    "endOffset": 20126
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 4764,
+                        "endColumn": 47,
+                        "endOffset": 4807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 20131,
+                    "endColumn": 52,
+                    "endOffset": 20179
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 4054,
+                        "endColumn": 52,
+                        "endOffset": 4102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 20184,
+                    "endColumn": 54,
+                    "endOffset": 20234
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 8702,
+                        "endColumn": 54,
+                        "endOffset": 8752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 20239,
+                    "endColumn": 38,
+                    "endOffset": 20273
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 708,
+                        "endColumn": 38,
+                        "endOffset": 742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 20278,
+                    "endColumn": 52,
+                    "endOffset": 20326
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 5644,
+                        "endColumn": 52,
+                        "endOffset": 5692
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 20331,
+                    "endColumn": 36,
+                    "endOffset": 20363
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 4157,
+                        "endColumn": 36,
+                        "endOffset": 4189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 20368,
+                    "endColumn": 40,
+                    "endOffset": 20404
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 4195,
+                        "endColumn": 40,
+                        "endOffset": 4231
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 20409,
+                    "endColumn": 40,
+                    "endOffset": 20445
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 4237,
+                        "endColumn": 40,
+                        "endOffset": 4273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 20450,
+                    "endColumn": 40,
+                    "endOffset": 20486
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 4279,
+                        "endColumn": 40,
+                        "endOffset": 4315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 20491,
+                    "endColumn": 40,
+                    "endOffset": 20527
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 4321,
+                        "endColumn": 40,
+                        "endOffset": 4357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 20532,
+                    "endColumn": 40,
+                    "endOffset": 20568
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 4363,
+                        "endColumn": 40,
+                        "endOffset": 4399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 20573,
+                    "endColumn": 44,
+                    "endOffset": 20613
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 317,
+                        "endColumn": 44,
+                        "endOffset": 357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 20618,
+                    "endColumn": 39,
+                    "endOffset": 20653
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 961,
+                        "endColumn": 39,
+                        "endOffset": 996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 290,
+                    "startColumn": 4,
+                    "startOffset": 20658,
+                    "endColumn": 59,
+                    "endOffset": 20713
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 5164,
+                        "endColumn": 59,
+                        "endOffset": 5219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 20718,
+                    "endColumn": 56,
+                    "endOffset": 20770
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 5225,
+                        "endColumn": 56,
+                        "endOffset": 5277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 20775,
+                    "endColumn": 60,
+                    "endOffset": 20831
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1002,
+                        "endColumn": 60,
+                        "endOffset": 1058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 20836,
+                    "endColumn": 96,
+                    "endOffset": 20928
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 4,
+                        "startOffset": 8131,
+                        "endColumn": 96,
+                        "endOffset": 8223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 294,
+                    "startColumn": 4,
+                    "startOffset": 20933,
+                    "endColumn": 95,
+                    "endOffset": 21024
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 8034,
+                        "endColumn": 95,
+                        "endOffset": 8125
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 21029,
+                    "endColumn": 38,
+                    "endOffset": 21063
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 1740,
+                        "endColumn": 38,
+                        "endOffset": 1774
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 21068,
+                    "endColumn": 38,
+                    "endOffset": 21102
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 6258,
+                        "endColumn": 38,
+                        "endOffset": 6292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 21107,
+                    "endColumn": 45,
+                    "endOffset": 21148
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 6298,
+                        "endColumn": 45,
+                        "endOffset": 6339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 21153,
+                    "endColumn": 100,
+                    "endOffset": 21249
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1982,
+                        "endColumn": 100,
+                        "endOffset": 2078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 21254,
+                    "endColumn": 38,
+                    "endOffset": 21288
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 165,
+                        "startColumn": 4,
+                        "startOffset": 7614,
+                        "endColumn": 38,
+                        "endOffset": 7648
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 300,
+                    "startColumn": 4,
+                    "startOffset": 21293,
+                    "endColumn": 131,
+                    "endOffset": 21420
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\5abb829bd0d44a461cd93c6510a9bc30452e71b5\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 982,
+                        "endColumn": 127,
+                        "endOffset": 1109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 301,
+                    "startColumn": 4,
+                    "startOffset": 21425,
+                    "endColumn": 88,
+                    "endOffset": 21509
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\5abb829bd0d44a461cd93c6510a9bc30452e71b5\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1110,
+                        "endColumn": 84,
+                        "endOffset": 1194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 21514,
+                    "endColumn": 51,
+                    "endOffset": 21561
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 7071,
+                        "endColumn": 51,
+                        "endOffset": 7118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 21566,
+                    "endColumn": 48,
+                    "endOffset": 21610
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 7124,
+                        "endColumn": 48,
+                        "endOffset": 7168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 21615,
+                    "endColumn": 34,
+                    "endOffset": 21645
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 495,
+                        "endColumn": 34,
+                        "endOffset": 525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 21650,
+                    "endColumn": 39,
+                    "endOffset": 21685
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 4,
+                        "startOffset": 9279,
+                        "endColumn": 39,
+                        "endOffset": 9314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 306,
+                    "startColumn": 4,
+                    "startOffset": 21690,
+                    "endColumn": 56,
+                    "endOffset": 21742
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 219,
+                        "startColumn": 4,
+                        "startOffset": 10943,
+                        "endColumn": 56,
+                        "endOffset": 10995
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 21747,
+                    "endColumn": 59,
+                    "endOffset": 21802
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 4,
+                        "startOffset": 8960,
+                        "endColumn": 59,
+                        "endOffset": 9015
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 21807,
+                    "endColumn": 47,
+                    "endOffset": 21850
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1365,
+                        "endColumn": 47,
+                        "endOffset": 1408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 21855,
+                    "endColumn": 45,
+                    "endOffset": 21896
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 4458,
+                        "endColumn": 45,
+                        "endOffset": 4499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 21901,
+                    "endColumn": 47,
+                    "endOffset": 21944
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 215,
+                        "startColumn": 4,
+                        "startOffset": 10754,
+                        "endColumn": 47,
+                        "endOffset": 10797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 21949,
+                    "endColumn": 105,
+                    "endOffset": 22050
+                },
+                "from": {
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\abef36319afd191d7b8cc5de67148f11edd027a0\\output\\res\\values-ar\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 240,
+                        "endColumn": 101,
+                        "endOffset": 341
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 22055,
+                    "endColumn": 50,
+                    "endOffset": 22101
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 5916,
+                        "endColumn": 50,
+                        "endOffset": 5962
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 22106,
+                    "endColumn": 47,
+                    "endOffset": 22149
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 6024,
+                        "endColumn": 47,
+                        "endOffset": 6067
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 22154,
+                    "endColumn": 54,
+                    "endOffset": 22204
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 5968,
+                        "endColumn": 54,
+                        "endOffset": 6018
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 22209,
+                    "endColumn": 50,
+                    "endOffset": 22255
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 193,
+                        "startColumn": 4,
+                        "startOffset": 9320,
+                        "endColumn": 50,
+                        "endOffset": 9366
+                    }
+                }
+            }
+        ]
+    }
+]

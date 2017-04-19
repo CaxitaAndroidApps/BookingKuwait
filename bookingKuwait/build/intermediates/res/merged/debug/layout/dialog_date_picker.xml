@@ -1,0 +1,42 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/custom_background" >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/std_color"
+        android:textColor="#ffffff"
+        android:text="Date"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.squareup.timessquare.CalendarPickerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:background="@color/custom_background"
+        app:dayBackground="@drawable/custom_calendar_bg_selector"
+        app:dayTextColor="@color/custom_calendar_text_selector"
+        app:dividerColor="@android:color/transparent"
+        app:titleTextColor="@color/custom_calendar_text_selector"
+        app:headerTextColor="@color/custom_header_text" />
+
+</LinearLayout>
+
+
+

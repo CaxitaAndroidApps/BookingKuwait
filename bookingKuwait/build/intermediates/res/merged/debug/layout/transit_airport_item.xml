@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tv_depart_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/tv_direct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/direct"
+                android:textColor="#0193cf"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+            
+            <TextView
+                android:id="@+id/tv_arrival_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+            
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tv_depart_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/transit_city_shape"
+                android:text="trvssssssss"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@drawable/right_arrow_transit"
+                android:layout_toRightOf="@+id/tv_depart_city"
+                android:layout_toEndOf="@+id/tv_depart_city"
+                android:layout_toStartOf="@+id/tv_arrival_city"
+                android:layout_toLeftOf="@+id/tv_arrival_city"
+                android:layout_centerInParent="true" />
+            
+            <TextView
+                android:id="@+id/tv_arrival_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/transit_city_shape"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="trhjhhhhhhv"
+                android:textColor="@android:color/white"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_transit_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transit 1Hr"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:visibility="gone" />
+        
+    </LinearLayout>
+
+</LinearLayout>

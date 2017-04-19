@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right|end"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_close"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/ll_hotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingBottom="5dp"
+                    android:text="@string/cityorhotel"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:id="@+id/ll_city_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_curved_bag"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="8dp" >
+
+                    <TextView
+                        android:id="@+id/tv_city"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".8"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center|left"
+                        android:hint="@string/cityorhotel"
+                        android:paddingBottom="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/black" />
+
+                    <ImageButton
+                        android:id="@+id/imgbtn_close_city"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/close_btn"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/location" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_checkin_checkout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/checkin_date"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_check_in"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/white_curved_bag"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_check_in_date"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-condensed"
+                            android:paddingLeft="5dp"
+                            android:text="09/06/2016"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/calendar" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/checkout_date"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_check_out"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/white_curved_bag"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_check_out_date"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-condensed"
+                            android:paddingLeft="5dp"
+                            android:text="09/06/2016"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/calendar" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/nationality"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:id="@+id/ll_nationality"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_curved_bag"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp" >
+
+                    <TextView
+                        android:id="@+id/tv_nationality"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".8"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center|left"
+                        android:hint="@string/nationality"
+                        android:paddingBottom="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/black" />
+
+                    <ImageButton
+                        android:id="@+id/imgbtn_close_nationality"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/close_btn"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/room"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_curved_bag"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Spinner
+                        android:id="@+id/sp_room_nos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:spinnerMode="dialog" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_room1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/buttonfocus"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/room1"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_adult_count_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/adult1"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_adult_count_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child_count_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child1"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child_count_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child1_age_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child1_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child1_age_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child2_age_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child2_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child2_age_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child3_age_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child3_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child3_age_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_room2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/buttonfocus"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/room2"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_adult_count_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/adult1"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_adult_count_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child_count_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child1"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child_count_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child1_age_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child1_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child1_age_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child2_age_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child2_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child2_age_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child3_age_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child3_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child3_age_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_room3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/buttonfocus"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/room3"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_adult_count_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/adult1"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_adult_count_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child_count_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child1"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child_count_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child1_age_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child1_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child1_age_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child2_age_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child2_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child2_age_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child3_age_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child3_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child3_age_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_room4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/buttonfocus"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/room4"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_adult_count_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/adult1"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_adult_count_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child_count_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child1"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child_count_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child1_age_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child1_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child1_age_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child2_age_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child2_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child2_age_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child3_age_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child3_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child3_age_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_room5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/buttonfocus"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/room5"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_adult_count_5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/adult1"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_adult_count_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child_count_5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child1"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child_count_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child1_age_5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child1_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child1_age_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child2_age_5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child2_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child2_age_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_child3_age_5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text="@string/child3_age"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/sp_child3_age_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/white_curved_bag"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/submit_button"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="10dp"
+                android:text="@string/search"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

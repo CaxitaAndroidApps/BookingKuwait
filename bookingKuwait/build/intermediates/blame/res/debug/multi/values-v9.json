@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v9\\values-v9.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "E:\\StudioWS\\Booking Kuwait\\library\\build\\intermediates\\bundles\\default\\res\\values-v9\\values-v9.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    }
+]

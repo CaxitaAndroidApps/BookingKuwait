@@ -1,0 +1,566 @@
+[
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_bg_selector.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\calendar_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\bshape.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\bshape.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\bshape_old.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\bshape_old.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_rewind.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_audiotrack_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_audiotrack_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_stop_live_stream.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\ic_expand.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_forward30.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_forward30.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg_normal.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\list_item_bg_normal.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_next.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_skip_next.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_media_route_on_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\greenprogress.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\greenprogress.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_close_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_small_icon.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_small_icon.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_bg_gradient_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_expanded_controller_bg_gradient_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_play.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_thumb.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_expanded_controller_seekbar_thumb.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonshape1.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\buttonshape1.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_closed_caption.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_closed_caption.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play_large.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_play_large.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause_large.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_pause_large.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\selector.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\home_button_background.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\home_button_background.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonfocus.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\buttonfocus.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_close_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\322557a2041ab48765cfffe80721451ae3e5454c\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_next.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collapse.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\ic_collapse.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\list_text_selector.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\list_text_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\button.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_cast_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_prev.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_skip_prev.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\white_bag_curved_border.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\white_bag_curved_border.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_skip_ad_label_border.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_skip_ad_label_border.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\normal_selector.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\normal_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_forward.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_closed_caption.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_expanded_controller_closed_caption.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_track.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_expanded_controller_seekbar_track.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_radio_button_filter.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\custom_radio_button_filter.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\transit_city_shape.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\transit_city_shape.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_calendar_bg_selector.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\custom_calendar_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind10.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_rewind10.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward30.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_forward30.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_media_route_connecting_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_mute.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_expanded_controller_mute.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\border_with_background.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\border_with_background.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_pause.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_disconnect.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_disconnect.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_stop.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonshape.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\buttonshape.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_next.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_expanded_controller_skip_next.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_play.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_media_route_on_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_media_route_connecting_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_prev.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind30.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_rewind30.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\home_button.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\home_button.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_selected.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\bg_circle_selected.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_play.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_expanded_controller_play.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop_large.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_stop_large.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\transparent_border.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\transparent_border.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_pause.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_pause.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\white_curved_bag.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\white_curved_bag.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\transparent_border_curved.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\transparent_border_curved.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\submit_button.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\submit_button.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_pause.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_expanded_controller_pause.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_progress_drawable.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_mini_controller_progress_drawable.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg_pressed.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\list_item_bg_pressed.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_rewind30.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_expanded_controller_rewind30.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\rating_selector.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\rating_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_rewind30.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_rewind30.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\counter_bg.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\counter_bg.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_today.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\bg_circle_today.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_mute.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\background_dialog.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable\\background_dialog.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward10.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\00052c650a564d45eba5532ab6aea902dca2150a\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_forward30.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_expanded_controller_forward30.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_gradient_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_mini_controller_gradient_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable\\mr_ic_play_light.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_stop.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable\\cast_ic_expanded_controller_stop.xml"
+    }
+]

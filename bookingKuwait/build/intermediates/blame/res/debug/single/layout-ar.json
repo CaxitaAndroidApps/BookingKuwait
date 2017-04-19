@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\sort_list_item.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\sort_list_item.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\activity_search_result_flight.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\activity_search_result_flight.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\fragment_flight.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\fragment_flight.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\flight_details_item.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\flight_details_item.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\transit_airport_item.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\transit_airport_item.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\tv_spinner.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\tv_spinner.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\item_flight_details.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\item_flight_details.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\baggage_info_item.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\baggage_info_item.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\search_result_item_hotel.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\search_result_item_hotel.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\dialog_currency.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\dialog_currency.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\flight_result_item_trip_details.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\flight_result_item_trip_details.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\fragment_hotel.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\fragment_hotel.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\activity_search_result_hotel.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\activity_search_result_hotel.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\dd.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\dd.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\dialog_room_details.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\dialog_room_details.xml"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\layout-ar\\search_result_item_flight.xml",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\layout-ar\\search_result_item_flight.xml"
+    }
+]

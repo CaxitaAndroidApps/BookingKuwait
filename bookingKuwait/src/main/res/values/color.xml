@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#ffffff</color>
+    <color name="list_background">#ffffff</color>
+    <color name="list_background_pressed">#E0E0E0</color>
+    <color name="list_divider">#424242</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="actionbar_text">#000000</color>
+   <color name="custom_header_text">#202f58</color>
+    <color name="custom_selected">#1976D2</color>            <!-- date selected green color -->
+    <color name="custom_background">#ffffff</color>
+    <color name="custom_background_today">#000000</color>
+    <color name="custom_background_disabled">#ffffff</color>
+    <color name="custom_text_selected">#FFFFFF</color>
+    <color name="custom_text_inactive">#778088</color>
+    <color name="transparent">#ffffff</color>
+    
+    <color name="my_accent">#ffffff</color>
+    <color name="my_primary">#ffffff</color>
+    <color name="my_primary_dark">#FFFFFF</color>
+    <color name="colorAccent">#778088</color>
+    <color name="my_primary_text">#ffffff</color>
+    <color name="my_secondary_text">#778088</color>
+    <color name="window_background">#ffffff</color>
+    <color name="std_color">#0163DA</color>
+    
+</resources>

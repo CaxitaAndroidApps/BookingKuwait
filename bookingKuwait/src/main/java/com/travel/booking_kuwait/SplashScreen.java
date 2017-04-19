@@ -1,5 +1,24 @@
 package com.travel.booking_kuwait;
 
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.os.Handler;
+import android.provider.Settings;
+import android.util.Log;
+import android.view.Menu;
+import android.webkit.CookieManager;
+
+import com.travel.booking_kuwait.Support.CommonFunctions;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,28 +30,39 @@ import java.util.Locale;
 
 import javax.net.ssl.HttpsURLConnection;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.os.Handler;
-import android.provider.Settings;
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.util.Log;
-import android.view.Menu;
-import android.webkit.CookieManager;
-
 public class SplashScreen extends Activity {
 
 	private static int SPLASH_TIME_OUT = 2000;
-	private Locale myLocale;
 	CommonFunctions cd;
+	HttpsURLConnection urlConnection = null;
+	private Locale myLocale;
+
+	private static String convertStreamToString(InputStream is) {
+		/*
+		 * To convert the InputStream to String we use the
+		 * BufferedReader.readLine() method. We iterate until the BufferedReader
+		 * return null which means there's no more data to read. Each line will
+		 * appended to a StringBuilder and returned as String.
+		 */
+		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+		StringBuilder sb = new StringBuilder();
+
+		String line = null;
+		try {
+			while ((line = reader.readLine()) != null) {
+				sb.append(line + "\n");
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				is.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		return sb.toString();
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -157,26 +187,6 @@ public class SplashScreen extends Activity {
 		return true;
 	}
 
-	private class UpdateChecker extends AsyncTask<Void, Void, String> {
-
-		@Override
-		protected String doInBackground(Void... params) {
-			// TODO Auto-generated method stub
-			makePostRequest();
-			return null;
-		}
-
-		@Override
-		protected void onPostExecute(String result) {
-			// TODO Auto-generated method stub
-			splash();
-			super.onPostExecute(result);
-		}
-
-	}
-
-	HttpsURLConnection urlConnection = null;
-
 	private void makePostRequest() {
 		// making POST request.
 		try {
@@ -208,33 +218,6 @@ public class SplashScreen extends Activity {
 		}
 	}
 
-	private static String convertStreamToString(InputStream is) {
-		/*
-		 * To convert the InputStream to String we use the
-		 * BufferedReader.readLine() method. We iterate until the BufferedReader
-		 * return null which means there's no more data to read. Each line will
-		 * appended to a StringBuilder and returned as String.
-		 */
-		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-		StringBuilder sb = new StringBuilder();
-
-		String line = null;
-		try {
-			while ((line = reader.readLine()) != null) {
-				sb.append(line + "\n");
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			try {
-				is.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
-		return sb.toString();
-	}
-
 	private void parseResult(String result) {
 		// Parse String to JSON object
 		try {
@@ -260,6 +243,24 @@ public class SplashScreen extends Activity {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	private class UpdateChecker extends AsyncTask<Void, Void, String> {
+
+		@Override
+		protected String doInBackground(Void... params) {
+			// TODO Auto-generated method stub
+			makePostRequest();
+			return null;
+		}
+
+		@Override
+		protected void onPostExecute(String result) {
+			// TODO Auto-generated method stub
+			splash();
+			super.onPostExecute(result);
+		}
+
 	}
 
 }

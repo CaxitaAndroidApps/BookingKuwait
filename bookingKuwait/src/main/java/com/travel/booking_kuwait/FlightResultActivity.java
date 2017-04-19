@@ -1,28 +1,5 @@
 package com.travel.booking_kuwait;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.SocketException;
-import java.net.URL;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -51,38 +28,72 @@ import android.widget.RadioButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.travel.booking_kuwait.RangeSeekBar.OnRangeSeekBarChangeListener;
+import com.travel.booking_kuwait.Support.CommonFunctions;
+import com.travel.booking_kuwait.Support.RangeSeekBar;
+import com.travel.booking_kuwait.Support.RangeSeekBar.OnRangeSeekBarChangeListener;
 import com.travel.booking_kuwait.adapter.FlightResultAdapter;
 import com.travel.booking_kuwait.model.FlightResultItem;
-import com.travel.booking_kuwait.R;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.SocketException;
+import java.net.URL;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
 
 public class FlightResultActivity extends Activity implements
 		OnItemClickListener {
 
-	private Locale myLocale;
-	String strFlightType, strFromCode, strTocode, strFromCity, strToCity;
-	String strFromDate, strToDate;
-	int adultCount, childCount, infantCount, tripNo;
-	boolean isRoundTrip = false;
 	public static String flightClass = null;
 	public static boolean blChild;
-
-	TextView tvFlightHeader, tvFlightDates, tvProgressText, tvCurrency;
+	public static Activity activityResult;
+	public static boolean blSession = true;
+	public static Activity activity;
+	public static FlightResultItem selectedFItem;
 	static ListView lvFlightResult;
-	ScrollView svResult;
 	static LinearLayout llSort;
-	// Spinner spSort;
-	private static ArrayList<FlightResultItem> flightResultItem,
-			flightResultItemsTemp, filteredResult;
 	static ArrayList<String> arrayAirline, checkedAirlines;
 	static ArrayList<String> arrayAirports, checkedAirports;
-	String str_url = "";
-	String main_url = "";
-
 	static String flightName, flightLogo, departureDateTime,
 			departureTimeString;
 	static String arrivalDateTime, arrivalTimeString, totalDurationInMinutes;
 	static int stops;
+	static String str12a6aFromOut, str6a12pFromOut, str12p6pFromOut,
+			str6p12aFromOut, str12a6aToOut, str6a12pToOut, str12p6pToOut,
+			str6p12aToOut, str12a6aFromRet, str6a12pFromRet, str12p6pFromRet,
+			str6p12aFromRet, str12a6aToRet, str6a12pToRet, str12p6pToRet,
+			str6p12aToRet;
+	static Double filterMinPrice = 0.0, filterMaxPrice = 0.0;
+	static Long filterDepLow, filterDepHigh, filterArrLow, filterArrHigh;
+	// Spinner spSort;
+	private static ArrayList<FlightResultItem> flightResultItem,
+			flightResultItemsTemp, filteredResult;
+	String strFlightType, strFromCode, strTocode, strFromCity, strToCity;
+	String strFromDate, strToDate;
+	int adultCount, childCount, infantCount, tripNo;
+	boolean isRoundTrip = false;
+	TextView tvFlightHeader, tvFlightDates, tvProgressText, tvCurrency;
+	ScrollView svResult;
+	String str_url = "";
+
+	// filter and sort
+	String main_url = "";
 	Boolean blHasNonStop = false, blHasOneStop = false, blHasMultStop = false;
 	Boolean blNonStop = false, blOneStop = false, blMultiStop = false;
 	Boolean blSortPrice = true, blSortDep = false, blSortArrival = false,
@@ -90,11 +101,6 @@ public class FlightResultActivity extends Activity implements
 	String strSortPriceType = "Low", strSortDepType = null,
 			strSortArrivalType = null, strSortDurationType = null,
 			strSortAirNameType = null;
-
-	public static Activity activityResult;
-
-	// filter and sort
-
 	ImageView ivClose;
 	LinearLayout llRangeBar, llDepartBar, llLandingBar, llLayover;
 	TextView tvRangeMax, tvRangeMin, tvLayoverMin, tvLayoverMax;
@@ -111,15 +117,6 @@ public class FlightResultActivity extends Activity implements
 	CheckBox cb12A6AFrom, cb6A12PFrom, cb12P6PFrom, cb6P12AFrom, cb12A6ATo,
 			cb6A12PTo, cb12P6PTo, cb6P12Ato;
 	Button btnApply;
-
-	static String str12a6aFromOut, str6a12pFromOut, str12p6pFromOut,
-			str6p12aFromOut, str12a6aToOut, str6a12pToOut, str12p6pToOut,
-			str6p12aToOut, str12a6aFromRet, str6a12pFromRet, str12p6pFromRet,
-			str6p12aFromRet, str12a6aToRet, str6a12pToRet, str12p6pToRet,
-			str6p12aToRet;
-
-	static Double filterMinPrice = 0.0, filterMaxPrice = 0.0;
-	static Long filterDepLow, filterDepHigh, filterArrLow, filterArrHigh;
 //			filterLayLow, filterLayHigh;
 	Long filterMinDep, filterMaxDep, filterMinArr, filterMaxArr; //, filterMinLay,
 //			filterMaxLay;
@@ -134,13 +131,66 @@ public class FlightResultActivity extends Activity implements
 	Dialog dialogSort, loaderDialog, curr;
 	TextView tvSortBy, tvSortByType;
 	CommonFunctions cf;
-
 	// String strSessionId = null;
 	String[] sortText, sortHeading;
+	private Locale myLocale;
+	private Handler handler = new Handler() {
+		@Override
+		public void handleMessage(Message msg) {
+			if (msg.what == 1) {
+				if (loaderDialog.isShowing())
+					loaderDialog.dismiss();
+				noResultAlert(false,
+						"There is a problem on your Network. Please try again later.");
 
-	public static boolean blSession = true;
+			} else if (msg.what == 2) {
 
-	public static Activity activity;
+				if (loaderDialog.isShowing())
+					loaderDialog.dismiss();
+				noResultAlert(false,
+						"There is a problem on your application. Please report it.");
+
+			} else if (msg.what == 3) {
+				if (loaderDialog.isShowing())
+					loaderDialog.dismiss();
+				noResultAlert(false,
+						getResources().getString(R.string.no_result));
+			} else if (msg.what == 4) {
+				if (loaderDialog.isShowing())
+					loaderDialog.dismiss();
+				noResultAlert(false,
+						"Something went wrong. Please try again later");
+			}
+
+		}
+	};
+
+	private static String convertStreamToString(InputStream is) {
+		/*
+		 * To convert the InputStream to String we use the
+		 * BufferedReader.readLine() method. We iterate until the BufferedReader
+		 * return null which means there's no more data to read. Each line will
+		 * appended to a StringBuilder and returned as String.
+		 */
+		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+		StringBuilder sb = new StringBuilder();
+
+		String line = null;
+		try {
+			while ((line = reader.readLine()) != null) {
+				sb.append(line + "\n");
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				is.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		return sb.toString();
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -187,7 +237,7 @@ public class FlightResultActivity extends Activity implements
 			new backMethod().execute();
 		super.onRestart();
 	}
-	
+
 	private void initialize() {
 		// TODO Auto-generated method stub
 		tvFlightHeader = (TextView) findViewById(R.id.tv_Flight_Hd);
@@ -439,67 +489,6 @@ public class FlightResultActivity extends Activity implements
 			tvFlightHeader.setText(strFromCity + " -> " + strToCity);
 		}
 		tvFlightHeader.setSelected(true);
-	}
-
-	private class backMethod extends AsyncTask<String, String, Void> {
-
-		@Override
-		protected void onPreExecute() {
-			// TODO Auto-generated method stub
-			super.onPreExecute();
-			flightResultItem.clear();
-			flightResultItemsTemp.clear();
-			arrayAirline.clear();
-			checkedAirlines.clear();
-			loaderDialog.show();
-		}
-
-		@Override
-		protected Void doInBackground(String... params) {
-			// TODO Auto-generated method stub
-			if (params[0].isEmpty()) {
-				String resultString = makePostRequest(false, "");
-				if (resultString != null)
-					parseRoundtripResult(resultString);
-			} else if (!params[0].equalsIgnoreCase(CommonFunctions.strCurrency)) {
-				String resultString = makePostRequest(true, params[0]);
-				if (resultString != null) {
-					JSONObject jObj;
-					try {
-						CommonFunctions.strCurrency = params[0];
-						jObj = new JSONObject(resultString);
-						jObj = jObj.getJSONObject("data");
-						parseRoundtripResult(jObj.getString("Item"));
-					} catch (JSONException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				}
-			}
-
-			return null;
-		}
-
-		@Override
-		protected void onPostExecute(Void result) {
-			// TODO Auto-generated method stub
-			super.onPostExecute(result);
-			if (loaderDialog.isShowing())
-				loaderDialog.dismiss();
-			if (flightResultItem.size() > 0) {
-				blCurr = false;
-				tvCurrency.setText(CommonFunctions.strCurrency);
-				lvFlightResult.setAdapter(new FlightResultAdapter(
-						FlightResultActivity.this, flightResultItem,
-						isRoundTrip));
-				setDefaultValues();
-				System.out
-						.println("------------------Finished displaying-------------");
-			} else {
-				((LinearLayout) findViewById(R.id.ll_filter)).setEnabled(false);
-				((LinearLayout) findViewById(R.id.ll_sort)).setEnabled(false);
-			}
-		}
 	}
 
 	public void setDefaultValues() {
@@ -1037,33 +1026,6 @@ public class FlightResultActivity extends Activity implements
 			else
 				handler.sendEmptyMessage(2);
 		}
-	}
-
-	private static String convertStreamToString(InputStream is) {
-		/*
-		 * To convert the InputStream to String we use the
-		 * BufferedReader.readLine() method. We iterate until the BufferedReader
-		 * return null which means there's no more data to read. Each line will
-		 * appended to a StringBuilder and returned as String.
-		 */
-		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-		StringBuilder sb = new StringBuilder();
-
-		String line = null;
-		try {
-			while ((line = reader.readLine()) != null) {
-				sb.append(line + "\n");
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			try {
-				is.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
-		return sb.toString();
 	}
 
 	private void showFilterDialog() {
@@ -2093,276 +2055,6 @@ public class FlightResultActivity extends Activity implements
 		// }
 	}
 
-	private class filter extends AsyncTask<Void, Void, String> {
-
-		@Override
-		protected void onPreExecute() {
-			// TODO Auto-generated method stub
-			filteredResult = new ArrayList<FlightResultItem>();
-			super.onPreExecute();
-		}
-
-		@Override
-		protected String doInBackground(Void... params) {
-			// TODO Auto-generated method stub
-
-			if (blNonStop || blOneStop || blMultiStop) {
-				for (FlightResultItem fitem : flightResultItemsTemp) {
-					if (fitem.intFlightStopsOne == 0 && blNonStop)
-						filteredResult.add(fitem);
-					else if (fitem.intFlightStopsOne == 1 && blOneStop)
-						filteredResult.add(fitem);
-					else if (fitem.intFlightStopsOne > 1 && blMultiStop)
-						filteredResult.add(fitem);
-				}
-			} else
-				filteredResult.addAll(flightResultItemsTemp);
-
-			if (!strFlightType.equalsIgnoreCase("Multicity")) {
-				if (bl12a6aFrom || bl6a12pFrom || bl12p6pFrom || bl6p12aFrom
-						|| bl12a6aTo || bl6a12pTo || bl12p6pTo || bl6p12aTo) {
-					ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
-					SimpleDateFormat dateFormat = new SimpleDateFormat(
-							"hh:mm aa", new Locale(CommonFunctions.lang));
-					Calendar cal = Calendar.getInstance();
-					int minutes = -1;
-					if (blOutbound) {
-						if (bl12a6aFrom || bl6a12pFrom || bl12p6pFrom
-								|| bl6p12aFrom) {
-							for (FlightResultItem fitem : filteredResult) {
-
-								try {
-									cal.setTime(dateFormat
-											.parse(fitem.DepartTimeOne));
-									minutes = cal.get(Calendar.HOUR_OF_DAY)
-											* 60 + cal.get(Calendar.MINUTE);
-
-								} catch (ParseException e) {
-									// TODO Auto-generated catch block
-									e.printStackTrace();
-								}
-
-								if (bl12a6aFrom && minutes > 0 && minutes < 360)
-									temp.add(fitem);
-								else if (bl6a12pFrom && minutes > 360
-										&& minutes < 720)
-									temp.add(fitem);
-								else if (bl12p6pFrom && minutes > 720
-										&& minutes < 1080)
-									temp.add(fitem);
-								else if (bl6p12aFrom && minutes > 1080
-										&& minutes < 1440)
-									temp.add(fitem);
-							}
-							filteredResult.clear();
-							filteredResult.addAll(temp);
-						}
-
-						if (bl12a6aTo || bl6a12pTo || bl12p6pTo || bl6p12aTo) {
-							temp.clear();
-							for (FlightResultItem fitem : filteredResult) {
-								try {
-									cal.setTime(dateFormat
-											.parse(fitem.ArrivalTimeOne));
-									minutes = cal.get(Calendar.HOUR_OF_DAY)
-											* 60 + cal.get(Calendar.MINUTE);
-
-								} catch (ParseException e) {
-									// TODO Auto-generated catch block
-									e.printStackTrace();
-								}
-
-								if (bl12a6aTo && minutes > 0 && minutes < 360)
-									temp.add(fitem);
-								else if (bl6a12pTo && minutes > 360
-										&& minutes < 720)
-									temp.add(fitem);
-								else if (bl12p6pTo && minutes > 720
-										&& minutes < 1080)
-									temp.add(fitem);
-								else if (bl6p12aTo && minutes > 1080
-										&& minutes < 1440)
-									temp.add(fitem);
-							}
-							filteredResult.clear();
-							filteredResult.addAll(temp);
-						}
-					} else if (blReturn) {
-						if (bl12a6aFrom || bl6a12pFrom || bl12p6pFrom
-								|| bl6p12aFrom) {
-							for (FlightResultItem fitem : filteredResult) {
-
-								try {
-									cal.setTime(dateFormat
-											.parse(fitem.DepartTimeTwo));
-									minutes = cal.get(Calendar.HOUR_OF_DAY)
-											* 60 + cal.get(Calendar.MINUTE);
-
-								} catch (ParseException e) {
-									// TODO Auto-generated catch block
-									e.printStackTrace();
-								}
-
-								if (bl12a6aFrom && minutes > 0 && minutes < 360)
-									temp.add(fitem);
-								else if (bl6a12pFrom && minutes > 360
-										&& minutes < 720)
-									temp.add(fitem);
-								else if (bl12p6pFrom && minutes > 720
-										&& minutes < 1080)
-									temp.add(fitem);
-								else if (bl6p12aFrom && minutes > 1080
-										&& minutes < 1440)
-									temp.add(fitem);
-							}
-							filteredResult.clear();
-							filteredResult.addAll(temp);
-						}
-						if (bl12a6aTo || bl6a12pTo || bl12p6pTo || bl6p12aTo) {
-							temp.clear();
-							for (FlightResultItem fitem : filteredResult) {
-								try {
-									cal.setTime(dateFormat
-											.parse(fitem.ArrivalTimeTwo));
-									minutes = cal.get(Calendar.HOUR_OF_DAY)
-											* 60 + cal.get(Calendar.MINUTE);
-
-								} catch (ParseException e) {
-									// TODO Auto-generated catch block
-									e.printStackTrace();
-								}
-
-								if (bl12a6aTo && minutes > 0 && minutes < 360)
-									temp.add(fitem);
-								else if (bl6a12pTo && minutes > 360
-										&& minutes < 720)
-									temp.add(fitem);
-								else if (bl12p6pTo && minutes > 720
-										&& minutes < 1080)
-									temp.add(fitem);
-								else if (bl6p12aTo && minutes > 1080
-										&& minutes < 1440)
-									temp.add(fitem);
-							}
-							filteredResult.clear();
-							filteredResult.addAll(temp);
-						}
-					}
-
-				}
-			}
-
-			if (blPriceFilter) {
-				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
-				for (FlightResultItem fitem : filteredResult) {
-					if (fitem.doubleFlightPrice >= filterMinPrice
-							&& fitem.doubleFlightPrice <= filterMaxPrice) {
-						temp.add(fitem);
-					}
-				}
-				filteredResult.clear();
-				filteredResult.addAll(temp);
-			}
-
-			if (blDepTimeFilter) {
-				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
-				SimpleDateFormat dateFormat = new SimpleDateFormat("hh:mm aa",
-						new Locale(CommonFunctions.lang));
-				Calendar cal = Calendar.getInstance();
-				for (FlightResultItem fitem : filteredResult) {
-
-					try {
-						cal.setTime(dateFormat.parse(fitem.DepartTimeOne));
-						if (cal.getTimeInMillis() >= filterMinDep
-								&& cal.getTimeInMillis() <= filterMaxDep) {
-							temp.add(fitem);
-						}
-					} catch (ParseException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					}
-
-				}
-				filteredResult.clear();
-				filteredResult.addAll(temp);
-			}
-
-			if (blArrTimeFilter) {
-				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
-				SimpleDateFormat dateFormat = new SimpleDateFormat("hh:mm aa",
-						new Locale(CommonFunctions.lang));
-				Calendar cal = Calendar.getInstance();
-				for (FlightResultItem fitem : filteredResult) {
-					try {
-						cal.setTime(dateFormat.parse(fitem.DepartTimeTwo));
-						if (cal.getTimeInMillis() >= filterMinArr
-								&& cal.getTimeInMillis() <= filterMaxArr) {
-							temp.add(fitem);
-						}
-					} catch (ParseException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					}
-
-				}
-				filteredResult.clear();
-				filteredResult.addAll(temp);
-			}
-
-//			if (blLayoverFilter) {
-//				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
-//				for (FlightResultItem fitem : filteredResult) {
-//					if (fitem.longLayoverTimeInMins >= filterMinLay
-//							&& fitem.longLayoverTimeInMins <= filterMaxLay) {
-//						temp.add(fitem);
-//					}
-//				}
-//				filteredResult.clear();
-//				filteredResult.addAll(temp);
-//			}
-
-			if (blNameFilter) {
-				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
-				for (FlightResultItem fitem : filteredResult) {
-					if (checkedAirlines.contains(fitem.str_AirlineName)) {
-						temp.add(fitem);
-					}
-				}
-				filteredResult.clear();
-				filteredResult.addAll(temp);
-			}
-
-//			if (blLayAirportFilter) {
-//				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
-//				for (FlightResultItem fitem : filteredResult) {
-//					if (checkedAirports.contains(fitem.strLayoverAirport)) {
-//						temp.add(fitem);
-//					}
-//				}
-//				filteredResult.clear();
-//				filteredResult.addAll(temp);
-//			}
-
-			return null;
-		}
-
-		@Override
-		protected void onPostExecute(String result) {
-			// TODO Auto-generated method stub
-			((ScrollView) findViewById(R.id.sv_filter))
-					.setVisibility(View.GONE);
-			if (filteredResult.size() > 0)
-				sortArrayList();
-			else {
-				lvFlightResult.setAdapter(null);
-				noResultAlert(true, getResources()
-						.getString(R.string.no_result));
-			}
-			super.onPostExecute(result);
-		}
-
-	}
-
 	@Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
@@ -2372,8 +2064,6 @@ public class FlightResultActivity extends Activity implements
 		arrayAirline.clear();
 		checkedAirlines.clear();
 	}
-
-	public static FlightResultItem selectedFItem;
 
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position,
@@ -2386,118 +2076,6 @@ public class FlightResultActivity extends Activity implements
 		new backService().execute(selectedFItem);
 
 	}
-
-	public class backService extends AsyncTask<FlightResultItem, Void, String> {
-
-		FlightResultItem fItem;
-		String sessionResult = "";
-
-		@Override
-		protected void onPreExecute() {
-			// TODO Auto-generated method stub
-			// loaderDialog.show();
-			// tvProgressText.setText(getResources().getString(
-			// R.string.checking_flight));
-			super.onPreExecute();
-		}
-
-		@Override
-		protected String doInBackground(FlightResultItem... params) {
-			// TODO Auto-generated method stub
-			URL url = null;
-			HttpURLConnection urlConnection = null;
-			try {
-				url = new URL(CommonFunctions.main_url
-						+ "en/FlightApi/AvailResult?tripId="
-						+ params[0].strTripId);
-				// + "&searchID=" + strSessionId);
-				CookieManager cookieManager = CookieManager.getInstance();
-				cookieManager.setAcceptCookie(true);
-				String cookie = cookieManager.getCookie(url.toString());
-				Log.i("url", url.toString());
-				urlConnection = (HttpURLConnection) url.openConnection();
-				// urlConnection.setReadTimeout(15000);
-				urlConnection.setRequestProperty("Cookie", cookie);
-				urlConnection.setConnectTimeout(15000);
-				urlConnection.setRequestMethod("GET");
-				InputStream in;
-				in = new BufferedInputStream(urlConnection.getInputStream());
-				sessionResult = convertStreamToString(in);
-				System.out.println("result" + sessionResult);
-				urlConnection.disconnect();
-				JSONObject json = new JSONObject(sessionResult);
-				sessionResult = json.getString("Status");
-				if (sessionResult.equalsIgnoreCase("true"))
-					fItem = params[0];
-
-			} catch (MalformedURLException e) {
-				// TODO Auto-generated catch block
-				urlConnection.disconnect();
-				e.printStackTrace();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				urlConnection.disconnect();
-				e.printStackTrace();
-			} catch (JSONException e) {
-				// TODO Auto-generated catch block
-				// urlConnection.disconnect();
-				e.printStackTrace();
-			}
-			return params[0].strDeepLink;
-		}
-
-		@Override
-		protected void onPostExecute(String result) {
-			// TODO Auto-generated method stub
-			// if (loaderDialog.isShowing())
-			// loaderDialog.dismiss();
-			if (sessionResult.equalsIgnoreCase("true")) {
-
-				Intent details = new Intent(FlightResultActivity.this,
-						SearchPageActivity.class);
-				// details.putExtra("sessionID", strSessionId);
-				details.putExtra("url", result);
-				startActivity(details);
-			} else {
-				tvProgressText.setText(getResources().getString(
-						R.string.flight_expired));
-				new backMethod().execute("");
-			}
-			super.onPostExecute(result);
-		}
-
-	}
-
-	private Handler handler = new Handler() {
-		@Override
-		public void handleMessage(Message msg) {
-			if (msg.what == 1) {
-				if (loaderDialog.isShowing())
-					loaderDialog.dismiss();
-				noResultAlert(false,
-						"There is a problem on your Network. Please try again later.");
-
-			} else if (msg.what == 2) {
-
-				if (loaderDialog.isShowing())
-					loaderDialog.dismiss();
-				noResultAlert(false,
-						"There is a problem on your application. Please report it.");
-
-			} else if (msg.what == 3) {
-				if (loaderDialog.isShowing())
-					loaderDialog.dismiss();
-				noResultAlert(false,
-						getResources().getString(R.string.no_result));
-			} else if (msg.what == 4) {
-				if (loaderDialog.isShowing())
-					loaderDialog.dismiss();
-				noResultAlert(false,
-						"Something went wrong. Please try again later");
-			}
-
-		}
-	};
 
 	public void noResultAlert(final boolean filter, String msg) {
 		AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
@@ -2994,6 +2572,418 @@ public class FlightResultActivity extends Activity implements
 		SharedPreferences.Editor editor = prefs.edit();
 		editor.putString(langPref, lang);
 		editor.commit();
+	}
+
+	private class backMethod extends AsyncTask<String, String, Void> {
+
+		@Override
+		protected void onPreExecute() {
+			// TODO Auto-generated method stub
+			super.onPreExecute();
+			flightResultItem.clear();
+			flightResultItemsTemp.clear();
+			arrayAirline.clear();
+			checkedAirlines.clear();
+			loaderDialog.show();
+		}
+
+		@Override
+		protected Void doInBackground(String... params) {
+			// TODO Auto-generated method stub
+			if (params[0].isEmpty()) {
+				String resultString = makePostRequest(false, "");
+				if (resultString != null)
+					parseRoundtripResult(resultString);
+			} else if (!params[0].equalsIgnoreCase(CommonFunctions.strCurrency)) {
+				String resultString = makePostRequest(true, params[0]);
+				if (resultString != null) {
+					JSONObject jObj;
+					try {
+						CommonFunctions.strCurrency = params[0];
+						jObj = new JSONObject(resultString);
+						jObj = jObj.getJSONObject("data");
+						parseRoundtripResult(jObj.getString("Item"));
+					} catch (JSONException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			}
+
+			return null;
+		}
+
+		@Override
+		protected void onPostExecute(Void result) {
+			// TODO Auto-generated method stub
+			super.onPostExecute(result);
+			if (loaderDialog.isShowing())
+				loaderDialog.dismiss();
+			if (flightResultItem.size() > 0) {
+				blCurr = false;
+				tvCurrency.setText(CommonFunctions.strCurrency);
+				lvFlightResult.setAdapter(new FlightResultAdapter(
+						FlightResultActivity.this, flightResultItem,
+						isRoundTrip));
+				setDefaultValues();
+				System.out
+						.println("------------------Finished displaying-------------");
+			} else {
+				((LinearLayout) findViewById(R.id.ll_filter)).setEnabled(false);
+				((LinearLayout) findViewById(R.id.ll_sort)).setEnabled(false);
+			}
+		}
+	}
+
+	private class filter extends AsyncTask<Void, Void, String> {
+
+		@Override
+		protected void onPreExecute() {
+			// TODO Auto-generated method stub
+			filteredResult = new ArrayList<FlightResultItem>();
+			super.onPreExecute();
+		}
+
+		@Override
+		protected String doInBackground(Void... params) {
+			// TODO Auto-generated method stub
+
+			if (blNonStop || blOneStop || blMultiStop) {
+				for (FlightResultItem fitem : flightResultItemsTemp) {
+					if (fitem.intFlightStopsOne == 0 && blNonStop)
+						filteredResult.add(fitem);
+					else if (fitem.intFlightStopsOne == 1 && blOneStop)
+						filteredResult.add(fitem);
+					else if (fitem.intFlightStopsOne > 1 && blMultiStop)
+						filteredResult.add(fitem);
+				}
+			} else
+				filteredResult.addAll(flightResultItemsTemp);
+
+			if (!strFlightType.equalsIgnoreCase("Multicity")) {
+				if (bl12a6aFrom || bl6a12pFrom || bl12p6pFrom || bl6p12aFrom
+						|| bl12a6aTo || bl6a12pTo || bl12p6pTo || bl6p12aTo) {
+					ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
+					SimpleDateFormat dateFormat = new SimpleDateFormat(
+							"hh:mm aa", new Locale(CommonFunctions.lang));
+					Calendar cal = Calendar.getInstance();
+					int minutes = -1;
+					if (blOutbound) {
+						if (bl12a6aFrom || bl6a12pFrom || bl12p6pFrom
+								|| bl6p12aFrom) {
+							for (FlightResultItem fitem : filteredResult) {
+
+								try {
+									cal.setTime(dateFormat
+											.parse(fitem.DepartTimeOne));
+									minutes = cal.get(Calendar.HOUR_OF_DAY)
+											* 60 + cal.get(Calendar.MINUTE);
+
+								} catch (ParseException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+								}
+
+								if (bl12a6aFrom && minutes > 0 && minutes < 360)
+									temp.add(fitem);
+								else if (bl6a12pFrom && minutes > 360
+										&& minutes < 720)
+									temp.add(fitem);
+								else if (bl12p6pFrom && minutes > 720
+										&& minutes < 1080)
+									temp.add(fitem);
+								else if (bl6p12aFrom && minutes > 1080
+										&& minutes < 1440)
+									temp.add(fitem);
+							}
+							filteredResult.clear();
+							filteredResult.addAll(temp);
+						}
+
+						if (bl12a6aTo || bl6a12pTo || bl12p6pTo || bl6p12aTo) {
+							temp.clear();
+							for (FlightResultItem fitem : filteredResult) {
+								try {
+									cal.setTime(dateFormat
+											.parse(fitem.ArrivalTimeOne));
+									minutes = cal.get(Calendar.HOUR_OF_DAY)
+											* 60 + cal.get(Calendar.MINUTE);
+
+								} catch (ParseException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+								}
+
+								if (bl12a6aTo && minutes > 0 && minutes < 360)
+									temp.add(fitem);
+								else if (bl6a12pTo && minutes > 360
+										&& minutes < 720)
+									temp.add(fitem);
+								else if (bl12p6pTo && minutes > 720
+										&& minutes < 1080)
+									temp.add(fitem);
+								else if (bl6p12aTo && minutes > 1080
+										&& minutes < 1440)
+									temp.add(fitem);
+							}
+							filteredResult.clear();
+							filteredResult.addAll(temp);
+						}
+					} else if (blReturn) {
+						if (bl12a6aFrom || bl6a12pFrom || bl12p6pFrom
+								|| bl6p12aFrom) {
+							for (FlightResultItem fitem : filteredResult) {
+
+								try {
+									cal.setTime(dateFormat
+											.parse(fitem.DepartTimeTwo));
+									minutes = cal.get(Calendar.HOUR_OF_DAY)
+											* 60 + cal.get(Calendar.MINUTE);
+
+								} catch (ParseException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+								}
+
+								if (bl12a6aFrom && minutes > 0 && minutes < 360)
+									temp.add(fitem);
+								else if (bl6a12pFrom && minutes > 360
+										&& minutes < 720)
+									temp.add(fitem);
+								else if (bl12p6pFrom && minutes > 720
+										&& minutes < 1080)
+									temp.add(fitem);
+								else if (bl6p12aFrom && minutes > 1080
+										&& minutes < 1440)
+									temp.add(fitem);
+							}
+							filteredResult.clear();
+							filteredResult.addAll(temp);
+						}
+						if (bl12a6aTo || bl6a12pTo || bl12p6pTo || bl6p12aTo) {
+							temp.clear();
+							for (FlightResultItem fitem : filteredResult) {
+								try {
+									cal.setTime(dateFormat
+											.parse(fitem.ArrivalTimeTwo));
+									minutes = cal.get(Calendar.HOUR_OF_DAY)
+											* 60 + cal.get(Calendar.MINUTE);
+
+								} catch (ParseException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+								}
+
+								if (bl12a6aTo && minutes > 0 && minutes < 360)
+									temp.add(fitem);
+								else if (bl6a12pTo && minutes > 360
+										&& minutes < 720)
+									temp.add(fitem);
+								else if (bl12p6pTo && minutes > 720
+										&& minutes < 1080)
+									temp.add(fitem);
+								else if (bl6p12aTo && minutes > 1080
+										&& minutes < 1440)
+									temp.add(fitem);
+							}
+							filteredResult.clear();
+							filteredResult.addAll(temp);
+						}
+					}
+
+				}
+			}
+
+			if (blPriceFilter) {
+				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
+				for (FlightResultItem fitem : filteredResult) {
+					if (fitem.doubleFlightPrice >= filterMinPrice
+							&& fitem.doubleFlightPrice <= filterMaxPrice) {
+						temp.add(fitem);
+					}
+				}
+				filteredResult.clear();
+				filteredResult.addAll(temp);
+			}
+
+			if (blDepTimeFilter) {
+				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
+				SimpleDateFormat dateFormat = new SimpleDateFormat("hh:mm aa",
+						new Locale(CommonFunctions.lang));
+				Calendar cal = Calendar.getInstance();
+				for (FlightResultItem fitem : filteredResult) {
+
+					try {
+						cal.setTime(dateFormat.parse(fitem.DepartTimeOne));
+						if (cal.getTimeInMillis() >= filterMinDep
+								&& cal.getTimeInMillis() <= filterMaxDep) {
+							temp.add(fitem);
+						}
+					} catch (ParseException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+
+				}
+				filteredResult.clear();
+				filteredResult.addAll(temp);
+			}
+
+			if (blArrTimeFilter) {
+				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
+				SimpleDateFormat dateFormat = new SimpleDateFormat("hh:mm aa",
+						new Locale(CommonFunctions.lang));
+				Calendar cal = Calendar.getInstance();
+				for (FlightResultItem fitem : filteredResult) {
+					try {
+						cal.setTime(dateFormat.parse(fitem.DepartTimeTwo));
+						if (cal.getTimeInMillis() >= filterMinArr
+								&& cal.getTimeInMillis() <= filterMaxArr) {
+							temp.add(fitem);
+						}
+					} catch (ParseException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+
+				}
+				filteredResult.clear();
+				filteredResult.addAll(temp);
+			}
+
+//			if (blLayoverFilter) {
+//				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
+//				for (FlightResultItem fitem : filteredResult) {
+//					if (fitem.longLayoverTimeInMins >= filterMinLay
+//							&& fitem.longLayoverTimeInMins <= filterMaxLay) {
+//						temp.add(fitem);
+//					}
+//				}
+//				filteredResult.clear();
+//				filteredResult.addAll(temp);
+//			}
+
+			if (blNameFilter) {
+				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
+				for (FlightResultItem fitem : filteredResult) {
+					if (checkedAirlines.contains(fitem.str_AirlineName)) {
+						temp.add(fitem);
+					}
+				}
+				filteredResult.clear();
+				filteredResult.addAll(temp);
+			}
+
+//			if (blLayAirportFilter) {
+//				ArrayList<FlightResultItem> temp = new ArrayList<FlightResultItem>();
+//				for (FlightResultItem fitem : filteredResult) {
+//					if (checkedAirports.contains(fitem.strLayoverAirport)) {
+//						temp.add(fitem);
+//					}
+//				}
+//				filteredResult.clear();
+//				filteredResult.addAll(temp);
+//			}
+
+			return null;
+		}
+
+		@Override
+		protected void onPostExecute(String result) {
+			// TODO Auto-generated method stub
+			((ScrollView) findViewById(R.id.sv_filter))
+					.setVisibility(View.GONE);
+			if (filteredResult.size() > 0)
+				sortArrayList();
+			else {
+				lvFlightResult.setAdapter(null);
+				noResultAlert(true, getResources()
+						.getString(R.string.no_result));
+			}
+			super.onPostExecute(result);
+		}
+
+	}
+
+	public class backService extends AsyncTask<FlightResultItem, Void, String> {
+
+		FlightResultItem fItem;
+		String sessionResult = "";
+
+		@Override
+		protected void onPreExecute() {
+			// TODO Auto-generated method stub
+			// loaderDialog.show();
+			// tvProgressText.setText(getResources().getString(
+			// R.string.checking_flight));
+			super.onPreExecute();
+		}
+
+		@Override
+		protected String doInBackground(FlightResultItem... params) {
+			// TODO Auto-generated method stub
+			URL url = null;
+			HttpURLConnection urlConnection = null;
+			try {
+				url = new URL(CommonFunctions.main_url
+						+ "en/FlightApi/AvailResult?tripId="
+						+ params[0].strTripId);
+				// + "&searchID=" + strSessionId);
+				CookieManager cookieManager = CookieManager.getInstance();
+				cookieManager.setAcceptCookie(true);
+				String cookie = cookieManager.getCookie(url.toString());
+				Log.i("url", url.toString());
+				urlConnection = (HttpURLConnection) url.openConnection();
+				// urlConnection.setReadTimeout(15000);
+				urlConnection.setRequestProperty("Cookie", cookie);
+				urlConnection.setConnectTimeout(15000);
+				urlConnection.setRequestMethod("GET");
+				InputStream in;
+				in = new BufferedInputStream(urlConnection.getInputStream());
+				sessionResult = convertStreamToString(in);
+				System.out.println("result" + sessionResult);
+				urlConnection.disconnect();
+				JSONObject json = new JSONObject(sessionResult);
+				sessionResult = json.getString("Status");
+				if (sessionResult.equalsIgnoreCase("true"))
+					fItem = params[0];
+
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				urlConnection.disconnect();
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				urlConnection.disconnect();
+				e.printStackTrace();
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				// urlConnection.disconnect();
+				e.printStackTrace();
+			}
+			return params[0].strDeepLink;
+		}
+
+		@Override
+		protected void onPostExecute(String result) {
+			// TODO Auto-generated method stub
+			// if (loaderDialog.isShowing())
+			// loaderDialog.dismiss();
+			if (sessionResult.equalsIgnoreCase("true")) {
+
+				Intent details = new Intent(FlightResultActivity.this,
+						SearchPageActivity.class);
+				// details.putExtra("sessionID", strSessionId);
+				details.putExtra("url", result);
+				startActivity(details);
+			} else {
+				tvProgressText.setText(getResources().getString(
+						R.string.flight_expired));
+				new backMethod().execute("");
+			}
+			super.onPostExecute(result);
+		}
+
 	}
 
 }

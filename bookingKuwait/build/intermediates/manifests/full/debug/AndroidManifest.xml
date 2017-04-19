@@ -63,7 +63,7 @@
             android:name="com.travel.booking_kuwait.HotelResultActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.travel.booking_kuwait.MarkerDemoActivity"
+            android:name="com.travel.booking_kuwait.MarkerActivity"
             android:screenOrientation="portrait" />
 
         <meta-data

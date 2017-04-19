@@ -17,6 +17,7 @@ ADDED from E:\StudioWS\Booking Kuwait\bookingKuwait\src\main\AndroidManifest.xml
 		ADDED from E:\StudioWS\Booking Kuwait\bookingKuwait\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from E:\StudioWS\Booking Kuwait\bookingKuwait\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Android\.android\build-cache\a942492d89e633954d444d476a675a695d18b7c2\output\AndroidManifest.xml:18:5-42
 MERGED from [Booking Kuwait:library:unspecified] E:\StudioWS\Booking Kuwait\library\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services:10.2.1] C:\Users\Android\.android\build-cache\d55aec1b852a1431b96cdc7d0f9f7b0207c62a59\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-ads:10.2.1] C:\Users\Android\.android\build-cache\5abb829bd0d44a461cd93c6510a9bc30452e71b5\output\AndroidManifest.xml:17:5-43
@@ -73,7 +74,6 @@ MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Android\
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Android\.android\build-cache\3be2b79775cc8809693aa5072d42ba9ecd472c21\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Android\.android\build-cache\683eb8d3db37c62eca9c2467bda978a954a74330\output\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Android\.android\build-cache\2b64bf4e34a8284fb9673e3d30c082e30639f12b\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\Android\.android\build-cache\a942492d89e633954d444d476a675a695d18b7c2\output\AndroidManifest.xml:18:5-42
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Android\.android\build-cache\d246352962250c898f5f02c913dfb92ff242930c\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
@@ -238,12 +238,12 @@ ADDED from E:\StudioWS\Booking Kuwait\bookingKuwait\src\main\AndroidManifest.xml
 		ADDED from E:\StudioWS\Booking Kuwait\bookingKuwait\src\main\AndroidManifest.xml:60:13-49
 	android:name
 		ADDED from E:\StudioWS\Booking Kuwait\bookingKuwait\src\main\AndroidManifest.xml:59:13-73
-activity#com.travel.booking_kuwait.MarkerDemoActivity
+activity#com.travel.booking_kuwait.MarkerActivity
 ADDED from E:\StudioWS\Booking Kuwait\bookingKuwait\src\main\AndroidManifest.xml:62:9-64:61
 	android:screenOrientation
 		ADDED from E:\StudioWS\Booking Kuwait\bookingKuwait\src\main\AndroidManifest.xml:64:13-49
 	android:name
-		ADDED from E:\StudioWS\Booking Kuwait\bookingKuwait\src\main\AndroidManifest.xml:63:13-72
+		ADDED from E:\StudioWS\Booking Kuwait\bookingKuwait\src\main\AndroidManifest.xml:63:13-68
 meta-data#com.google.android.maps.v2.API_KEY
 ADDED from E:\StudioWS\Booking Kuwait\bookingKuwait\src\main\AndroidManifest.xml:66:10-68:71
 	android:value

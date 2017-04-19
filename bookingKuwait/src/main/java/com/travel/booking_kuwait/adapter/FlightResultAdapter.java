@@ -1,18 +1,5 @@
 package com.travel.booking_kuwait.adapter;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Locale;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import com.travel.booking_kuwait.CommonFunctions;
-import com.travel.booking_kuwait.FlightResultActivity;
-import com.travel.booking_kuwait.R;
-import com.travel.booking_kuwait.model.FlightResultItem;
-
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
@@ -26,13 +13,26 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.travel.booking_kuwait.FlightResultActivity;
+import com.travel.booking_kuwait.R;
+import com.travel.booking_kuwait.Support.CommonFunctions;
+import com.travel.booking_kuwait.model.FlightResultItem;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Locale;
+
 public class FlightResultAdapter extends BaseAdapter{
-	
+
+	String strBaggageDetails = null;
+	CommonFunctions cf;
 	private Context context;
 	private ArrayList<FlightResultItem> flightResultItem;
 	private boolean isRoundTrip = false;
-	String strBaggageDetails = null;
-	CommonFunctions cf;
 	
 	public FlightResultAdapter(Context context, ArrayList<FlightResultItem> flightResultItem, boolean isRoundTrip){
 		this.context = context;

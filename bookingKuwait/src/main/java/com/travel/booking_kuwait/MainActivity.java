@@ -1,15 +1,5 @@
 package com.travel.booking_kuwait;
 
-import com.travel.booking_kuwait.adapter.NavDrawerListAdapter;
-import com.travel.booking_kuwait.model.NavDrawerItem;
-import com.travel.booking_kuwait.R;
-
-import java.util.ArrayList;
-import java.util.Locale;
-
-import android.net.Uri;
-import android.os.Bundle;
-import android.os.Handler;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -21,13 +11,16 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Window;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -37,33 +30,41 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
+import com.travel.booking_kuwait.Fragments.AboutFragment;
+import com.travel.booking_kuwait.Fragments.ContactFragment;
+import com.travel.booking_kuwait.Fragments.FlightFragment;
+import com.travel.booking_kuwait.Fragments.HomeFragment;
+import com.travel.booking_kuwait.Fragments.HotelFragment;
+import com.travel.booking_kuwait.Support.CommonFunctions;
+import com.travel.booking_kuwait.adapter.NavDrawerListAdapter;
+import com.travel.booking_kuwait.model.NavDrawerItem;
+
+import java.util.ArrayList;
+import java.util.Locale;
+
 public class MainActivity extends Activity {
 
-	private DrawerLayout mDrawerLayout;
-	private boolean doubleBackToExitPressedOnce = false;
-
+	public static boolean loadDef0 = true;
+	static int menu_pos = 0;
 	int i = 0;
-	private ListView mDrawerList;
 	Fragment fragment = null;
 	FragmentManager fragmentManager = getFragmentManager();
 	FragmentTransaction fragmentTransaction;
-	static int menu_pos = 0;
-
-	// slide menu items
-	private String[] navMenuTitles;
-
-	private ArrayList<NavDrawerItem> navDrawerItems;
-	private NavDrawerListAdapter adapter;
 	ImageButton menuBtn;
 	ImageView ivLogo;
 	LinearLayout llHome, llslider, llContainer;
 	String lang = "en";
 	LinearLayout llFlight, llHotel;
 	TextView tvFlight, tvHotel, tvFlightHotel, tvCurrency, toggle;
-	private Locale myLocale;
 	Dialog dialogFAQ, curr;
-
-	public static boolean loadDef0 = true;
+	private DrawerLayout mDrawerLayout;
+	private boolean doubleBackToExitPressedOnce = false;
+	private ListView mDrawerList;
+	// slide menu items
+	private String[] navMenuTitles;
+	private ArrayList<NavDrawerItem> navDrawerItems;
+	private NavDrawerListAdapter adapter;
+	private Locale myLocale;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -314,20 +315,6 @@ public class MainActivity extends Activity {
 				navDrawerItems);
 		mDrawerList.setAdapter(adapter);
 		mDrawerList.setOnItemClickListener(new SlideMenuClickListener());
-	}
-
-	/**
-	 * Slide menu item click listener
-	 * */
-	private class SlideMenuClickListener implements
-			ListView.OnItemClickListener {
-		@Override
-		public void onItemClick(AdapterView<?> parent, View view, int position,
-				long id) {
-			// display view for selected nav drawer item
-			if (menu_pos != position)
-				displayView(position);
-		}
 	}
 
 	/**
@@ -826,6 +813,20 @@ public class MainActivity extends Activity {
 
 		curr.show();
 
+	}
+
+	/**
+	 * Slide menu item click listener
+	 */
+	private class SlideMenuClickListener implements
+			ListView.OnItemClickListener {
+		@Override
+		public void onItemClick(AdapterView<?> parent, View view, int position,
+								long id) {
+			// display view for selected nav drawer item
+			if (menu_pos != position)
+				displayView(position);
+		}
 	}
 
 }

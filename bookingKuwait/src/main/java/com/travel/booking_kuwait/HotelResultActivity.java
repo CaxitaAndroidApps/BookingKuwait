@@ -1,23 +1,5 @@
 package com.travel.booking_kuwait;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Locale;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -37,11 +19,13 @@ import android.util.Log;
 import android.util.LruCache;
 import android.view.Gravity;
 import android.view.View;
-import android.view.Window;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.webkit.CookieManager;
 import android.widget.AbsListView;
+import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -51,63 +35,147 @@ import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.AbsListView.OnScrollListener;
-import android.widget.AdapterView.OnItemClickListener;
 
-import com.travel.booking_kuwait.RangeSeekBar.OnRangeSeekBarChangeListener;
+import com.travel.booking_kuwait.Support.CommonFunctions;
+import com.travel.booking_kuwait.Support.RangeSeekBar;
+import com.travel.booking_kuwait.Support.RangeSeekBar.OnRangeSeekBarChangeListener;
 import com.travel.booking_kuwait.adapter.HotelResultAdapter;
 import com.travel.booking_kuwait.adapter.ImageDownloader;
 import com.travel.booking_kuwait.model.HotelResultItem;
-import com.travel.booking_kuwait.R;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Locale;
 
 public class HotelResultActivity extends Activity {
 
-	private Locale myLocale;
 	public static String strCity, strCheckinDate, strCheckoutDate;
+	public static LruCache<String, Bitmap> mMemoryCache;
+	public static Bitmap bmp = null;
+	public static boolean blSession = true;
+	public static Activity activity;
+	static LinearLayout llSort;
+	private static ArrayList<HotelResultItem> hotelResultItem,
+			hotelResultItemTemp, filteredResult;
+	private static ArrayList<String> arrayBoardTypes; // ,
 	int passengerCount, roomCount;
-
 	ImageView ivClearHotelName;
 	TextView tvCity, tvCheckinDate, tvCheckoutDate, tvpassengerCount,
 			tvroomCount;
 	TextView tvHotelResultCount, tvProgressText, tvCurrency;
 	// ScrollView svResult;
 	EditText etFilterHotelName;
-	static LinearLayout llSort;
 	ListView lvHotelResult;
 	LinearLayout llSortLayout, llFilterLayout, llSortDialogLayout;
-	private static ArrayList<HotelResultItem> hotelResultItem,
-			hotelResultItemTemp, filteredResult;
-	private static ArrayList<String> arrayBoardTypes; // ,
 														// arrayCheckedBoardtypes;
 	String str_url = "";
 	String main_url = "";
 	Dialog loaderDialog, dialogSort, curr;
 	TextView tvSortBy, tvSortByType;
-
+	;
 	// boolean for sort
 	Boolean blSortPrice = false, blSortRating = true, blSortHotelName = false;
 	String strSortPriceType = "Low", strSortRatingType = "High",
 			strSortHotelNameType = "Low";
-
 	// boolean for filter
 	Boolean blFilterPrice = false, blFilterName = false,
-			blFilterBoardTypes = false, blHasBreakfast = false;;
+			blFilterBoardTypes = false, blHasBreakfast = false;
 	Double filterMinPrice, filterMaxPrice;
 	Boolean blNoStar = false, blOneStar = false, blTwoStar = false,
 			blThreeStar = false, blFourStar = false, blFiveStar = false;
 	String strSearchName = "";
 	// String strSessionId = null;
 	boolean blCurr = false;
-
-	public static LruCache<String, Bitmap> mMemoryCache;
-	public static Bitmap bmp = null;
 	CommonFunctions cf;
-
 	String[] sortText, sortHeading;
+	boolean reset;
+	// to show images only in the visible part to optimize speed and avoid OOM
+	boolean flag;
+	private Locale myLocale;
+	private Handler handler = new Handler() {
 
-	public static boolean blSession = true;
+		@Override
+		public void handleMessage(Message msg) {
+			if (msg.what == 1) {
+				if (loaderDialog.isShowing())
+					loaderDialog.dismiss();
+				noResultAlert(false,
+						"There is a problem on your Network. Please try again later.");
 
-	public static Activity activity;
+			} else if (msg.what == 2) {
+
+				if (loaderDialog.isShowing())
+					loaderDialog.dismiss();
+				noResultAlert(false,
+						"There is a problem on your application. Please report it.");
+
+			} else if (msg.what == 3) {
+				if (loaderDialog.isShowing())
+					loaderDialog.dismiss();
+				noResultAlert(false,
+						getResources().getString(R.string.no_result));
+			} else if (msg.what == 4) {
+				if (loaderDialog.isShowing())
+					loaderDialog.dismiss();
+				noResultAlert(false,
+						"Something went wrong. Please try again later");
+			}
+
+		}
+	};
+
+	private static String convertStreamToString(InputStream is) {
+		/*
+		 * To convert the InputStream to String we use the
+		 * BufferedReader.readLine() method. We iterate until the BufferedReader
+		 * return null which means there's no more data to read. Each line will
+		 * appended to a StringBuilder and returned as String.
+		 */
+		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+		StringBuilder sb = new StringBuilder();
+
+		String line = null;
+		try {
+			while ((line = reader.readLine()) != null) {
+				sb.append(line + "\n");
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				is.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		return sb.toString();
+	}
+
+	public static void addBitmapToMemoryCache(String key, Bitmap bitmap) {
+		if (getBitmapFromMemCache(key) == null) {
+			if (bitmap == null)
+				bitmap = bmp;
+			mMemoryCache.put(key, bitmap);
+		}
+	}
+
+	public static Bitmap getBitmapFromMemCache(String key) {
+		return mMemoryCache.get(key);
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -401,78 +469,6 @@ public class HotelResultActivity extends Activity {
 		}
 	}
 
-	private class backMethod extends AsyncTask<String, String, Void> {
-		@Override
-		protected void onPreExecute() {
-			// TODO Auto-generated method stub
-			super.onPreExecute();
-			hotelResultItem.clear();
-			hotelResultItemTemp.clear();
-
-			loaderDialog.show();
-			llSortLayout.setEnabled(false);
-			llFilterLayout.setEnabled(false);
-		}
-
-		@Override
-		protected Void doInBackground(String... params) {
-			// TODO Auto-generated method stub
-			if (params[0].isEmpty()) {
-				String resultString = makePostRequest(false, "");
-				if (resultString != null)
-					parseHotelResult(resultString);
-			} else if (!params[0].equalsIgnoreCase(CommonFunctions.strCurrency)) {
-				String resultString = makePostRequest(true, params[0]);
-				if (resultString != null) {
-					JSONObject jObj;
-					try {
-						CommonFunctions.strCurrency = params[0];
-						jObj = new JSONObject(resultString);
-						jObj = jObj.getJSONObject("data");
-						parseHotelResult(jObj.getString("Item"));
-					} catch (JSONException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				}
-			}
-
-			return null;
-		}
-
-		@Override
-		protected void onPostExecute(Void result) {
-			// TODO Auto-generated method stub
-			super.onPostExecute(result);
-			tvHotelResultCount.setText(String.valueOf(hotelResultItem.size())
-					+ " " + getResources().getString(R.string.hotels));
-			// Toast.makeText(getApplicationContext(),
-			// "Done loading"+hotelResultItem.size(),
-			// Toast.LENGTH_SHORT).show();
-			if (hotelResultItem.size() > 0) {
-				blCurr = false;
-				tvCurrency.setText(CommonFunctions.strCurrency);
-				// printImage(hotelResultItem);
-				// printResult(hotelResultItem);
-				System.out
-						.println("------------------Finished displaying-------------");
-				// startRepeatingTask();
-				setDefaultValues();
-				llSortLayout.setEnabled(true);
-				llFilterLayout.setEnabled(true);
-				new sort().execute();
-			} else {
-				// noResultAlert(false,
-				// getResources().getString(R.string.no_result));
-				((LinearLayout) findViewById(R.id.ll_filter)).setEnabled(false);
-				((LinearLayout) findViewById(R.id.ll_sort)).setEnabled(false);
-			}
-			if (loaderDialog.isShowing())
-				loaderDialog.dismiss();
-		}
-
-	}
-
 	public void setDefaultValues() {
 		hotelResultItemTemp.addAll(hotelResultItem);
 		filterMinPrice = (hotelResultItem).get(0).doubleHotelDisplayRate;
@@ -608,7 +604,7 @@ public class HotelResultActivity extends Activity {
 						} catch (Exception e) {
 							e.printStackTrace();
 						}
-						
+
 						hItem.doubleHotelDisplayRate = Double
 								.parseDouble(allHotels
 										.getString("HotelDisplayRate"));
@@ -663,33 +659,6 @@ public class HotelResultActivity extends Activity {
 			else
 				handler.sendEmptyMessage(2);
 		}
-	}
-
-	private static String convertStreamToString(InputStream is) {
-		/*
-		 * To convert the InputStream to String we use the
-		 * BufferedReader.readLine() method. We iterate until the BufferedReader
-		 * return null which means there's no more data to read. Each line will
-		 * appended to a StringBuilder and returned as String.
-		 */
-		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-		StringBuilder sb = new StringBuilder();
-
-		String line = null;
-		try {
-			while ((line = reader.readLine()) != null) {
-				sb.append(line + "\n");
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			try {
-				is.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
-		return sb.toString();
 	}
 
 	private void showSortDialog() {
@@ -813,8 +782,6 @@ public class HotelResultActivity extends Activity {
 		dialogSort.show();
 
 	}
-
-	boolean reset;
 
 	private void showFilterDialog() {
 		reset = false;
@@ -1092,96 +1059,6 @@ public class HotelResultActivity extends Activity {
 		((ScrollView) findViewById(R.id.sv_filter)).setVisibility(View.VISIBLE);
 	}
 
-	private class sort extends AsyncTask<Void, Void, String> {
-
-		ArrayList<HotelResultItem> temp = new ArrayList<HotelResultItem>();
-
-		@Override
-		protected void onPreExecute() {
-			// TODO Auto-generated method stub
-			tvProgressText.setVisibility(View.GONE);
-			loaderDialog.show();
-			llSortLayout.setEnabled(false);
-			llFilterLayout.setEnabled(false);
-			super.onPreExecute();
-		}
-
-		@Override
-		protected void onPostExecute(String result) {
-			// TODO Auto-generated method stub
-			lvHotelResult.setAdapter(new HotelResultAdapter(
-					HotelResultActivity.this, temp));
-			// , strSessionId));
-			printImage(temp);
-			// temp.clear();
-			llSortLayout.setEnabled(true);
-			llFilterLayout.setEnabled(true);
-			if (loaderDialog.isShowing()) {
-				loaderDialog.dismiss();
-				tvProgressText.setVisibility(View.VISIBLE);
-			}
-			super.onPostExecute(result);
-		}
-
-		@Override
-		protected String doInBackground(Void... params) {
-			// TODO Auto-generated method stub
-
-			if (blNoStar || blOneStar || blTwoStar || blThreeStar || blFourStar
-					|| blFiveStar || blFilterPrice || blFilterName
-					|| blFilterBoardTypes) {
-				temp.addAll(filteredResult);
-			} else {
-				temp.addAll(hotelResultItemTemp);
-			}
-
-			if (blSortPrice) {
-				if (temp.size() > 0) {
-					Collections.sort(temp, new Comparator<HotelResultItem>() {
-
-						@Override
-						public int compare(HotelResultItem lhs,
-								HotelResultItem rhs) {
-							// TODO Auto-generated method stub
-							return (lhs.doubleHotelDisplayRate)
-									.compareTo(rhs.doubleHotelDisplayRate);
-						}
-					});
-
-					if (strSortPriceType.equalsIgnoreCase("high")) {
-						Collections.reverse(temp);
-					}
-				}
-			} else if (blSortRating) {
-				if (temp.size() > 0) {
-					quickSort(temp, 0, temp.size() - 1);
-					if (strSortRatingType.equalsIgnoreCase("high")) {
-						Collections.reverse(temp);
-					}
-				}
-			} else {
-				if (temp.size() > 0) {
-					Collections.sort(temp, new Comparator<HotelResultItem>() {
-
-						@Override
-						public int compare(HotelResultItem lhs,
-								HotelResultItem rhs) {
-							// TODO Auto-generated method stub
-							return lhs.strHotelName
-									.compareToIgnoreCase(rhs.strHotelName);
-						}
-					});
-					if (strSortHotelNameType.equalsIgnoreCase("high")) {
-						Collections.reverse(temp);
-					}
-				}
-
-			}
-			return null;
-		}
-
-	}
-
 	/* * This method implements in-place quicksort algorithm recursively. */
 	private void quickSort(ArrayList<HotelResultItem> temp, int low, int high) {
 		int i = low;
@@ -1295,9 +1172,6 @@ public class HotelResultActivity extends Activity {
 
 	}
 
-	// to show images only in the visible part to optimize speed and avoid OOM
-	boolean flag;
-
 	private void printImage(final ArrayList<HotelResultItem> array) {
 		final ImageDownloader imageDownloader = new ImageDownloader();
 		flag = true;
@@ -1363,138 +1237,6 @@ public class HotelResultActivity extends Activity {
 			}
 		});
 	}
-
-	public static void addBitmapToMemoryCache(String key, Bitmap bitmap) {
-		if (getBitmapFromMemCache(key) == null) {
-			if (bitmap == null)
-				bitmap = bmp;
-			mMemoryCache.put(key, bitmap);
-		}
-	}
-
-	public static Bitmap getBitmapFromMemCache(String key) {
-		return mMemoryCache.get(key);
-	}
-
-	static class ViewHolder {
-		ImageView imageView;
-	}
-
-	private class backService extends AsyncTask<HotelResultItem, Void, String> {
-
-		HotelResultItem hItem;
-		String sessionResult;
-
-		@Override
-		protected void onPreExecute() {
-			// TODO Auto-generated method stub
-			tvProgressText.setText(getResources().getString(
-					R.string.checking_hotel));
-			if (tvProgressText.getVisibility() == View.GONE)
-				tvProgressText.setVisibility(View.VISIBLE);
-			loaderDialog.show();
-			super.onPreExecute();
-		}
-
-		@Override
-		protected String doInBackground(HotelResultItem... params) {
-			// TODO Auto-generated method stub
-			URL url = null;
-			HttpURLConnection urlConnection = null;
-			try {
-				hItem = params[0];
-				url = new URL(CommonFunctions.main_url
-						+ "en/HotelApi/AvailResult");
-				// + "?searchID=" + strSessionId);
-				CookieManager cookieManager = CookieManager.getInstance();
-				cookieManager.setAcceptCookie(true);
-				String cookie = cookieManager.getCookie(url.toString());
-				Log.i("url", url.toString());
-				urlConnection = (HttpURLConnection) url.openConnection();
-				// urlConnection.setReadTimeout(15000);
-				urlConnection.setRequestProperty("Cookie", cookie);
-				urlConnection.setConnectTimeout(15000);
-				urlConnection.setRequestMethod("GET");
-				InputStream in;
-				in = new BufferedInputStream(urlConnection.getInputStream());
-				sessionResult = convertStreamToString(in);
-				System.out.println("result" + sessionResult);
-				urlConnection.disconnect();
-				JSONObject json = new JSONObject(sessionResult);
-				sessionResult = json.getString("Status");
-
-			} catch (MalformedURLException e) {
-				// TODO Auto-generated catch block
-				urlConnection.disconnect();
-				e.printStackTrace();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				urlConnection.disconnect();
-				e.printStackTrace();
-			} catch (JSONException e) {
-				// TODO Auto-generated catch block
-				// urlConnection.disconnect();
-				e.printStackTrace();
-			}
-			return params[0].strDeepLinkUrl;
-		}
-
-		@Override
-		protected void onPostExecute(String result) {
-			// TODO Auto-generated method stub
-			if (loaderDialog.isShowing())
-				loaderDialog.dismiss();
-			if (sessionResult.equalsIgnoreCase("true")) {
-				tvProgressText.setText(getResources().getString(
-						R.string.searching_flight));
-				Intent details = new Intent(HotelResultActivity.this,
-						SearchPageActivity.class);
-				details.putExtra("url", hItem.strDeepLinkUrl);
-				// details.putExtra("sessionID", strSessionId);
-				details.putExtra("type", "hotel");
-				startActivity(details);
-			} else {
-				tvProgressText.setText(getResources().getString(
-						R.string.hotel_expired));
-				new backMethod().execute("");
-			}
-
-			super.onPostExecute(result);
-		}
-
-	}
-
-	private Handler handler = new Handler() {
-
-		@Override
-		public void handleMessage(Message msg) {
-			if (msg.what == 1) {
-				if (loaderDialog.isShowing())
-					loaderDialog.dismiss();
-				noResultAlert(false,
-						"There is a problem on your Network. Please try again later.");
-
-			} else if (msg.what == 2) {
-
-				if (loaderDialog.isShowing())
-					loaderDialog.dismiss();
-				noResultAlert(false,
-						"There is a problem on your application. Please report it.");
-
-			} else if (msg.what == 3) {
-				if (loaderDialog.isShowing())
-					loaderDialog.dismiss();
-				noResultAlert(false,
-						getResources().getString(R.string.no_result));
-			} else if (msg.what == 4) {
-				if (loaderDialog.isShowing())
-					loaderDialog.dismiss();
-				noResultAlert(false,
-						"Something went wrong. Please try again later");
-			}
-
-		}
-	};
 
 	public void noResultAlert(final boolean filter, String msg) {
 		AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
@@ -1972,6 +1714,256 @@ public class HotelResultActivity extends Activity {
 		SharedPreferences.Editor editor = prefs.edit();
 		editor.putString(langPref, lang);
 		editor.commit();
+	}
+
+	static class ViewHolder {
+		ImageView imageView;
+	}
+
+	private class backMethod extends AsyncTask<String, String, Void> {
+		@Override
+		protected void onPreExecute() {
+			// TODO Auto-generated method stub
+			super.onPreExecute();
+			hotelResultItem.clear();
+			hotelResultItemTemp.clear();
+
+			loaderDialog.show();
+			llSortLayout.setEnabled(false);
+			llFilterLayout.setEnabled(false);
+		}
+
+		@Override
+		protected Void doInBackground(String... params) {
+			// TODO Auto-generated method stub
+			if (params[0].isEmpty()) {
+				String resultString = makePostRequest(false, "");
+				if (resultString != null)
+					parseHotelResult(resultString);
+			} else if (!params[0].equalsIgnoreCase(CommonFunctions.strCurrency)) {
+				String resultString = makePostRequest(true, params[0]);
+				if (resultString != null) {
+					JSONObject jObj;
+					try {
+						CommonFunctions.strCurrency = params[0];
+						jObj = new JSONObject(resultString);
+						jObj = jObj.getJSONObject("data");
+						parseHotelResult(jObj.getString("Item"));
+					} catch (JSONException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			}
+
+			return null;
+		}
+
+		@Override
+		protected void onPostExecute(Void result) {
+			// TODO Auto-generated method stub
+			super.onPostExecute(result);
+			tvHotelResultCount.setText(String.valueOf(hotelResultItem.size())
+					+ " " + getResources().getString(R.string.hotels));
+			// Toast.makeText(getApplicationContext(),
+			// "Done loading"+hotelResultItem.size(),
+			// Toast.LENGTH_SHORT).show();
+			if (hotelResultItem.size() > 0) {
+				blCurr = false;
+				tvCurrency.setText(CommonFunctions.strCurrency);
+				// printImage(hotelResultItem);
+				// printResult(hotelResultItem);
+				System.out
+						.println("------------------Finished displaying-------------");
+				// startRepeatingTask();
+				setDefaultValues();
+				llSortLayout.setEnabled(true);
+				llFilterLayout.setEnabled(true);
+				new sort().execute();
+			} else {
+				// noResultAlert(false,
+				// getResources().getString(R.string.no_result));
+				((LinearLayout) findViewById(R.id.ll_filter)).setEnabled(false);
+				((LinearLayout) findViewById(R.id.ll_sort)).setEnabled(false);
+			}
+			if (loaderDialog.isShowing())
+				loaderDialog.dismiss();
+		}
+
+	}
+
+	private class sort extends AsyncTask<Void, Void, String> {
+
+		ArrayList<HotelResultItem> temp = new ArrayList<HotelResultItem>();
+
+		@Override
+		protected void onPreExecute() {
+			// TODO Auto-generated method stub
+			tvProgressText.setVisibility(View.GONE);
+			loaderDialog.show();
+			llSortLayout.setEnabled(false);
+			llFilterLayout.setEnabled(false);
+			super.onPreExecute();
+		}
+
+		@Override
+		protected void onPostExecute(String result) {
+			// TODO Auto-generated method stub
+			lvHotelResult.setAdapter(new HotelResultAdapter(
+					HotelResultActivity.this, temp));
+			// , strSessionId));
+			printImage(temp);
+			// temp.clear();
+			llSortLayout.setEnabled(true);
+			llFilterLayout.setEnabled(true);
+			if (loaderDialog.isShowing()) {
+				loaderDialog.dismiss();
+				tvProgressText.setVisibility(View.VISIBLE);
+			}
+			super.onPostExecute(result);
+		}
+
+		@Override
+		protected String doInBackground(Void... params) {
+			// TODO Auto-generated method stub
+
+			if (blNoStar || blOneStar || blTwoStar || blThreeStar || blFourStar
+					|| blFiveStar || blFilterPrice || blFilterName
+					|| blFilterBoardTypes) {
+				temp.addAll(filteredResult);
+			} else {
+				temp.addAll(hotelResultItemTemp);
+			}
+
+			if (blSortPrice) {
+				if (temp.size() > 0) {
+					Collections.sort(temp, new Comparator<HotelResultItem>() {
+
+						@Override
+						public int compare(HotelResultItem lhs,
+										   HotelResultItem rhs) {
+							// TODO Auto-generated method stub
+							return (lhs.doubleHotelDisplayRate)
+									.compareTo(rhs.doubleHotelDisplayRate);
+						}
+					});
+
+					if (strSortPriceType.equalsIgnoreCase("high")) {
+						Collections.reverse(temp);
+					}
+				}
+			} else if (blSortRating) {
+				if (temp.size() > 0) {
+					quickSort(temp, 0, temp.size() - 1);
+					if (strSortRatingType.equalsIgnoreCase("high")) {
+						Collections.reverse(temp);
+					}
+				}
+			} else {
+				if (temp.size() > 0) {
+					Collections.sort(temp, new Comparator<HotelResultItem>() {
+
+						@Override
+						public int compare(HotelResultItem lhs,
+										   HotelResultItem rhs) {
+							// TODO Auto-generated method stub
+							return lhs.strHotelName
+									.compareToIgnoreCase(rhs.strHotelName);
+						}
+					});
+					if (strSortHotelNameType.equalsIgnoreCase("high")) {
+						Collections.reverse(temp);
+					}
+				}
+
+			}
+			return null;
+		}
+
+	}
+
+	private class backService extends AsyncTask<HotelResultItem, Void, String> {
+
+		HotelResultItem hItem;
+		String sessionResult;
+
+		@Override
+		protected void onPreExecute() {
+			// TODO Auto-generated method stub
+			tvProgressText.setText(getResources().getString(
+					R.string.checking_hotel));
+			if (tvProgressText.getVisibility() == View.GONE)
+				tvProgressText.setVisibility(View.VISIBLE);
+			loaderDialog.show();
+			super.onPreExecute();
+		}
+
+		@Override
+		protected String doInBackground(HotelResultItem... params) {
+			// TODO Auto-generated method stub
+			URL url = null;
+			HttpURLConnection urlConnection = null;
+			try {
+				hItem = params[0];
+				url = new URL(CommonFunctions.main_url
+						+ "en/HotelApi/AvailResult");
+				// + "?searchID=" + strSessionId);
+				CookieManager cookieManager = CookieManager.getInstance();
+				cookieManager.setAcceptCookie(true);
+				String cookie = cookieManager.getCookie(url.toString());
+				Log.i("url", url.toString());
+				urlConnection = (HttpURLConnection) url.openConnection();
+				// urlConnection.setReadTimeout(15000);
+				urlConnection.setRequestProperty("Cookie", cookie);
+				urlConnection.setConnectTimeout(15000);
+				urlConnection.setRequestMethod("GET");
+				InputStream in;
+				in = new BufferedInputStream(urlConnection.getInputStream());
+				sessionResult = convertStreamToString(in);
+				System.out.println("result" + sessionResult);
+				urlConnection.disconnect();
+				JSONObject json = new JSONObject(sessionResult);
+				sessionResult = json.getString("Status");
+
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				urlConnection.disconnect();
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				urlConnection.disconnect();
+				e.printStackTrace();
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				// urlConnection.disconnect();
+				e.printStackTrace();
+			}
+			return params[0].strDeepLinkUrl;
+		}
+
+		@Override
+		protected void onPostExecute(String result) {
+			// TODO Auto-generated method stub
+			if (loaderDialog.isShowing())
+				loaderDialog.dismiss();
+			if (sessionResult.equalsIgnoreCase("true")) {
+				tvProgressText.setText(getResources().getString(
+						R.string.searching_flight));
+				Intent details = new Intent(HotelResultActivity.this,
+						SearchPageActivity.class);
+				details.putExtra("url", hItem.strDeepLinkUrl);
+				// details.putExtra("sessionID", strSessionId);
+				details.putExtra("type", "hotel");
+				startActivity(details);
+			} else {
+				tvProgressText.setText(getResources().getString(
+						R.string.hotel_expired));
+				new backMethod().execute("");
+			}
+
+			super.onPostExecute(result);
+		}
+
 	}
 
 }

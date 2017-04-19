@@ -1,15 +1,5 @@
 package com.travel.booking_kuwait.adapter;
 
-import java.util.ArrayList;
-import java.util.Locale;
-
-import com.travel.booking_kuwait.CommonFunctions;
-import com.travel.booking_kuwait.HotelResultActivity;
-import com.travel.booking_kuwait.MarkerActivity;
-import com.travel.booking_kuwait.SearchPageActivity;
-import com.travel.booking_kuwait.model.HotelResultItem;
-import com.travel.booking_kuwait.R;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -23,6 +13,16 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
+
+import com.travel.booking_kuwait.HotelResultActivity;
+import com.travel.booking_kuwait.MarkerActivity;
+import com.travel.booking_kuwait.R;
+import com.travel.booking_kuwait.SearchPageActivity;
+import com.travel.booking_kuwait.Support.CommonFunctions;
+import com.travel.booking_kuwait.model.HotelResultItem;
+
+import java.util.ArrayList;
+import java.util.Locale;
 
 public class HotelResultAdapter extends BaseAdapter{
 

@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_connecting_09_light.png"
     },
     {
-        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_08_light.png",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_on_08_light.png"
-    },
-    {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_01_dark.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_on_01_dark.png"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_08_light.png",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_on_08_light.png"
     },
     {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_grey.png",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable-xhdpi-v4\\cast_ic_stop_circle_filled_grey600.png"
     },
     {
-        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_replay_white_24.png",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable-xhdpi-v4\\quantum_ic_replay_white_24.png"
-    },
-    {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_replay_white_24.png",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable-xhdpi-v4\\quantum_ic_replay_white_24.png"
     },
     {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_02_dark.png",
@@ -108,12 +108,12 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable-xhdpi-v4\\quantum_ic_closed_caption_white_36.png"
     },
     {
-        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_closed_caption_grey600_36.png",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable-xhdpi-v4\\quantum_ic_closed_caption_grey600_36.png"
-    },
-    {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_play_arrow_grey600_36.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable-xhdpi-v4\\quantum_ic_play_arrow_grey600_36.png"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_closed_caption_grey600_36.png",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\59f9c192a717e69ee19d53d4ae1bca03a5d44422\\output\\res\\drawable-xhdpi-v4\\quantum_ic_closed_caption_grey600_36.png"
     },
     {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_01_light.png",
@@ -160,12 +160,12 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_connecting_13_light.png"
     },
     {
-        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_connecting_03_light.png",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_connecting_03_light.png"
-    },
-    {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_03_light.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_on_03_light.png"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_connecting_03_light.png",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_connecting_03_light.png"
     },
     {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_speaker_dark.png",
@@ -212,12 +212,12 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d246352962250c898f5f02c913dfb92ff242930c\\output\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_white.png",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_cast_white.png"
-    },
-    {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_02_light.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_on_02_light.png"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_white.png",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_cast_white.png"
     },
     {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_connecting_02_light.png",
@@ -304,12 +304,12 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_on_05_dark.png"
     },
     {
-        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_connecting_10_dark.png",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_connecting_10_dark.png"
-    },
-    {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_18_dark.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_on_18_dark.png"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_connecting_10_dark.png",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\8e6fd073f05e49b6117dc2eeda4530a817fbbfe6\\output\\res\\drawable-xhdpi-v4\\ic_media_route_connecting_10_dark.png"
     },
     {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_forward_30_grey600_36.png",

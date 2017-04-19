@@ -1,20 +1,5 @@
 package com.travel.booking_kuwait;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.Locale;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import com.travel.booking_kuwait.R;
-
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Activity;
@@ -30,19 +15,33 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Window;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.webkit.CookieManager;
+import android.webkit.WebSettings.RenderPriority;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.webkit.WebSettings.RenderPriority;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toolbar;
 
+import com.travel.booking_kuwait.Support.CommonFunctions;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Locale;
+
 public class SearchPageActivity extends Activity {
 
-	private Locale myLocale;
 	ProgressBar pb_line;
 	String url, type, id, sessionID, urlLoading;
 	int dp1;
@@ -50,6 +49,34 @@ public class SearchPageActivity extends Activity {
 	ImageView menuBtn, ivBack;
 	Dialog loaderDialog;
 	CommonFunctions cf;
+	private Locale myLocale;
+
+	private static String convertStreamToString(InputStream is) {
+		/*
+		 * To convert the InputStream to String we use the
+		 * BufferedReader.readLine() method. We iterate until the BufferedReader
+		 * return null which means there's no more data to read. Each line will
+		 * appended to a StringBuilder and returned as String.
+		 */
+		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+		StringBuilder sb = new StringBuilder();
+
+		String line = null;
+		try {
+			while ((line = reader.readLine()) != null) {
+				sb.append(line + "\n");
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				is.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		return sb.toString();
+	}
 
 	@SuppressLint({ "SetJavaScriptEnabled", "InflateParams" })
 	@SuppressWarnings("deprecation")
@@ -139,7 +166,7 @@ public class SearchPageActivity extends Activity {
 					} else {
 						finish();
 					}
-				} 
+				}
 			}
 		});
 
@@ -150,7 +177,7 @@ public class SearchPageActivity extends Activity {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
 		    WebView.setWebContentsDebuggingEnabled(true);
 		}
-		
+
 		wv1.setWebViewClient(new WebViewClient() {
 
 			@Override
@@ -167,8 +194,8 @@ public class SearchPageActivity extends Activity {
 						wv1.loadUrl(url);
 					}
 				}
-				
-				
+
+
 				if (url.equalsIgnoreCase(CommonFunctions.main_url)
 						|| url.equalsIgnoreCase(CommonFunctions.main_url + CommonFunctions.lang)
 						|| url.equalsIgnoreCase("http://bookingkuwait.com/")) {
@@ -223,7 +250,7 @@ public class SearchPageActivity extends Activity {
 
 		if(url.contains("https"))
 			url = url.replace("https", "http");
-		
+
 		wv1.loadUrl(url);
 
 		if (type.equalsIgnoreCase("flight") || type.equalsIgnoreCase("hotel"))
@@ -236,103 +263,6 @@ public class SearchPageActivity extends Activity {
 		if (type.equalsIgnoreCase("flight") || type.equalsIgnoreCase("hotel"))
 			new backService().execute();
 		super.onRestart();
-	}
-
-	private class backService extends AsyncTask<Void, Void, String> {
-
-		String sessionResult;
-
-		@Override
-		protected String doInBackground(Void... params) {
-			// TODO Auto-generated method stub
-			URL url = null;
-			HttpURLConnection urlConnection = null;
-			try {
-				if (type.equalsIgnoreCase("flight"))
-					url = new URL(CommonFunctions.main_url
-							+ "en/FlightApi/AvailResult?tripId=" + id);
-				else
-					url = new URL(CommonFunctions.main_url
-							+ "en/HotelApi/AvailResult");
-				CookieManager cookieManager = CookieManager.getInstance();
-				cookieManager.setAcceptCookie(true);
-				String cookie = cookieManager.getCookie(url.toString());
-				Log.i("url", url.toString());
-				urlConnection = (HttpURLConnection) url.openConnection();
-				// urlConnection.setReadTimeout(15000);
-				urlConnection.setRequestProperty("Cookie", cookie);
-				urlConnection.setConnectTimeout(15000);
-				urlConnection.setRequestMethod("GET");
-				InputStream in;
-				in = new BufferedInputStream(urlConnection.getInputStream());
-				sessionResult = convertStreamToString(in);
-				System.out.println("result" + sessionResult);
-				urlConnection.disconnect();
-				JSONObject json = new JSONObject(sessionResult);
-				sessionResult = json.getString("Status");
-
-			} catch (MalformedURLException e) {
-				// TODO Auto-generated catch block
-				urlConnection.disconnect();
-				e.printStackTrace();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				urlConnection.disconnect();
-				e.printStackTrace();
-			} catch (JSONException e) {
-				// TODO Auto-generated catch block
-				// urlConnection.disconnect();
-				e.printStackTrace();
-			}
-			return null;
-		}
-
-		@Override
-		protected void onPostExecute(String result) {
-			// TODO Auto-generated method stub
-			if (!sessionResult.equalsIgnoreCase("true")) {
-				if (type.equalsIgnoreCase("flight")) {
-					FlightResultActivity.blSession = false;
-					cf.showToast(getResources().getString(
-							R.string.flight_expired_web));
-				} else {
-					HotelResultActivity.blSession = false;
-					cf.showToast(getResources().getString(
-							R.string.hotel_expired_web));
-				}
-				finish();
-			}
-
-			super.onPostExecute(result);
-		}
-
-	}
-
-	private static String convertStreamToString(InputStream is) {
-		/*
-		 * To convert the InputStream to String we use the
-		 * BufferedReader.readLine() method. We iterate until the BufferedReader
-		 * return null which means there's no more data to read. Each line will
-		 * appended to a StringBuilder and returned as String.
-		 */
-		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-		StringBuilder sb = new StringBuilder();
-
-		String line = null;
-		try {
-			while ((line = reader.readLine()) != null) {
-				sb.append(line + "\n");
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			try {
-				is.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
-		return sb.toString();
 	}
 
 	@Override
@@ -413,6 +343,76 @@ public class SearchPageActivity extends Activity {
 		SharedPreferences.Editor editor = prefs.edit();
 		editor.putString(langPref, lang);
 		editor.commit();
+	}
+
+	private class backService extends AsyncTask<Void, Void, String> {
+
+		String sessionResult;
+
+		@Override
+		protected String doInBackground(Void... params) {
+			// TODO Auto-generated method stub
+			URL url = null;
+			HttpURLConnection urlConnection = null;
+			try {
+				if (type.equalsIgnoreCase("flight"))
+					url = new URL(CommonFunctions.main_url
+							+ "en/FlightApi/AvailResult?tripId=" + id);
+				else
+					url = new URL(CommonFunctions.main_url
+							+ "en/HotelApi/AvailResult");
+				CookieManager cookieManager = CookieManager.getInstance();
+				cookieManager.setAcceptCookie(true);
+				String cookie = cookieManager.getCookie(url.toString());
+				Log.i("url", url.toString());
+				urlConnection = (HttpURLConnection) url.openConnection();
+				// urlConnection.setReadTimeout(15000);
+				urlConnection.setRequestProperty("Cookie", cookie);
+				urlConnection.setConnectTimeout(15000);
+				urlConnection.setRequestMethod("GET");
+				InputStream in;
+				in = new BufferedInputStream(urlConnection.getInputStream());
+				sessionResult = convertStreamToString(in);
+				System.out.println("result" + sessionResult);
+				urlConnection.disconnect();
+				JSONObject json = new JSONObject(sessionResult);
+				sessionResult = json.getString("Status");
+
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				urlConnection.disconnect();
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				urlConnection.disconnect();
+				e.printStackTrace();
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				// urlConnection.disconnect();
+				e.printStackTrace();
+			}
+			return null;
+		}
+
+		@Override
+		protected void onPostExecute(String result) {
+			// TODO Auto-generated method stub
+			if (!sessionResult.equalsIgnoreCase("true")) {
+				if (type.equalsIgnoreCase("flight")) {
+					FlightResultActivity.blSession = false;
+					cf.showToast(getResources().getString(
+							R.string.flight_expired_web));
+				} else {
+					HotelResultActivity.blSession = false;
+					cf.showToast(getResources().getString(
+							R.string.hotel_expired_web));
+				}
+				finish();
+			}
+
+			super.onPostExecute(result);
+		}
+
 	}
 
 }

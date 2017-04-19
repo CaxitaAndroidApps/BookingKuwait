@@ -1,20 +1,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:padding="10dp" >
+    android:padding="10dp">
 
     <ImageView
 		android:id="@+id/iv_close"
 	    android:layout_width="30dp"
 	    android:layout_height="30dp"
-	    android:layout_marginBottom="8dp"
-	    android:layout_marginRight="5dp"
-	    android:layout_marginEnd="5dp"
-	    android:padding="5dp"
-	    android:src="@drawable/ic_close"
         android:layout_gravity="right"
+	    android:layout_marginBottom="8dp"
+	    android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+	    android:padding="5dp"
+        android:src="@drawable/ic_close"
         android:visibility="gone" />
     
     <ScrollView
@@ -32,8 +31,8 @@
                 android:id="@+id/ll_tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="2dp"
-                android:background="@drawable/white_curved_bag" >
+                android:background="@drawable/white_curved_bag"
+                android:padding="2dp">
 
                 <LinearLayout
                     android:id="@+id/ll_mutli_wayTab"
@@ -54,8 +53,8 @@
                 </LinearLayout>
 
                 <View 
-                    android:layout_height="match_parent"
                     android:layout_width="1dp"
+                    android:layout_height="match_parent"
                     android:background="@android:color/white" />
                 
                 <LinearLayout
@@ -63,9 +62,9 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:padding="8dp"
                     android:background="@drawable/submit_button"
-                    android:gravity="center" >
+                    android:gravity="center"
+                    android:padding="8dp">
 
                     <TextView
                         android:id="@+id/rb_round"
@@ -78,8 +77,8 @@
                 </LinearLayout>
 
                 <View 
-                    android:layout_height="match_parent"
                     android:layout_width="1dp"
+                    android:layout_height="match_parent"
                     android:background="@android:color/white" />
 
                 <LinearLayout
@@ -384,7 +383,7 @@
                             <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
+                                android:layout_weight=".9"
                                 android:orientation="vertical" >
 
                                 <TextView
@@ -410,7 +409,7 @@
                             <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
+                                android:layout_weight=".9"
                                 android:orientation="vertical" >
 
                                 <TextView
@@ -1384,7 +1383,7 @@
                             <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                android:layout_weight=".9"
                                 android:orientation="vertical" >
 
                                 <TextView
@@ -1411,7 +1410,7 @@
                             <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                android:layout_weight=".9"
                                 android:orientation="vertical" >
 
                                 <TextView

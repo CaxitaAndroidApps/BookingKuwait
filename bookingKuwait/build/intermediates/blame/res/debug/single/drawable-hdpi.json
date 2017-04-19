@@ -12,12 +12,12 @@
         "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable-hdpi\\ic_tick.png"
     },
     {
-        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\booking_logo.png",
-        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable-hdpi\\booking_logo.png"
-    },
-    {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_oneway_flipped.png",
         "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable-hdpi\\ic_oneway_flipped.png"
+    },
+    {
+        "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\booking_logo.png",
+        "source": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\src\\main\\res\\drawable-hdpi\\booking_logo.png"
     },
     {
         "merged": "E:\\StudioWS\\Booking Kuwait\\bookingKuwait\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_checkbox_selected.png",
